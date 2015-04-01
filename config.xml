@@ -23,6 +23,8 @@
    <!-- retina iPad support: PhoneGap 2.5.0+ only -->
    <icon src="img/ios/cgch.png" gap:platform="ios" width="144" height="144" />
    
+   <gap:platform name="android" />
+   
    <gap:splash src="img/ios/320x480.png" gap:platform="ios" width="320"  height="480"  />
    <gap:splash src="img/ios/640x960.png" gap:platform="ios" width="640"  height="960"  />
    <gap:splash src="img/ios/640x1136.png" gap:platform="ios" width="640"  height="1136" />
