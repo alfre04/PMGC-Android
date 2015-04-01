@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+	<title>Frontier || Petrobras Magazine Global Connections</title>
+  	<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/frontier.css" />
+	<link rel="stylesheet" type="text/css" href="css/frontier-LayerHeights.css" />
+
+	<!-- Menu ( Css - Js )-->
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+	
+    <script src="../js/jqueryPMGC.min.js"></script>
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
+  
+	<!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+				
+				 var x = 0;  
+            var y = 0; 
+			var sentido = "negativo"; 
+            //cache a reference to the banner  
+            var banner = $(".title");  
+  
+            // set initial banner background position  
+            banner.css('backgroundPosition', x + 'px' + ' ' + y + 'px');  
+  
+            // scroll up background position every 90 milliseconds  
+            window.setInterval(function() {  
+                banner.css("backgroundPosition", x + 'px' + ' ' + y + 'px');  
+                //y--;  
+                if(sentido=="negativo"){
+				if(x>=-768){	
+				x = x-2;
+				} else {
+					sentido = "positivo";
+					x = x+2
+				}
+				}
+				
+				if(sentido=="positivo"){
+				if(x<=0){
+					x = x+2;
+					
+				} else {
+					sentido = "negativo";
+					x = x-2;
+				}
+				}
+  
+                //if you need to scroll image horizontally -  
+                // uncomment x and comment y  
+  
+            }, 90);  
+			});
+	</script>
+
+</head>
+
+<body>
+  	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller">
+
+						<section>
+
+						<div class="layer background" data-stellar-ratio="1">
+							
+							<div class="title" >
+								<h1>IN ANOTHER<br/><span class="Big">DIMENSION</span></h1>
+							</div>
+
+							<div class="footer">
+								<img src="imgs/footerFrontier.png">
+							</div>
+									
+						</div> <!-- End of BackGround -->
+
+								
+						<div class="layer layer1" data-stellar-ratio="1.2">
+							
+
+							
+
+							<img class="first-picture" src="imgs/foto-1.png">
+
+							<img class="second-picture" src="imgs/foto-2.png">
+
+							<img class="third-picture" src="imgs/foto-3.png">
+
+							<img class="fourth-picture" src="imgs/foto-4.png">
+
+							<img class="five-picture" src="imgs/foto-5.png">
+
+							
+
+						</div><!-- fin de fotos -->
+
+
+						<div class="layer layer2" data-stellar-ratio="1.4">
+
+							<div class="foto1-Caption">
+								<div class="fotoCaption">
+									<p>3D simulations have become crucial to anticipate possible problems, verify non-conformities and train people to operate equipment</p>
+								</div>
+							</div>
+
+							<div class="foto2-Caption">
+								<div class="fotoCaption">
+									<p>The rooms reproduce three-dimensional images, with audio and video, and use cooperative systems</p>
+								</div>
+							</div>
+
+							<div class="foto3-Caption">
+								<div class="fotoCaption">
+									<p>In the “Cave,” images are projected onto five screens - one frontal, two lateral, one on the floor and one on the ceiling</p>
+								</div>
+							</div>
+							<div class="foto4-Caption">
+								<div class="fotoCaption">
+									<p>For the consultant Luciano Pereira dos Reis, the great challenge is to develop visualization techniques and equipment with an ever greater processing capacity</p>
+								</div>
+							</div>
+							<div class="foto5-Caption">
+								<div class="fotoCaption">
+									<p>The semi-immersive viewing room allows the 3D experience to be lived for about 20 technicians at once, increasing the observations and the exchange of ideas</p>
+								</div>
+							</div>
+
+							<img class="first-pleca" src="imgs/pleca1.png">
+
+							<img class="second-pleca" src="imgs/pleca2.png">
+
+							<img class="third-pleca" src="imgs/pleca3.png">
+							
+
+
+
+
+							
+
+
+
+						</div><!-- fin de infographics -->
+
+						<div class="layer layer3" data-stellar-ratio="1.6">
+									    
+							<div class="sectionHeader"><img src="imgs/line_portada.png"></div>
+							<div class="lineasSubHead">
+							    <p style="max-width:540px;">Virtual reality takes company technicians into projects</p>
+							    <p style="max-width:570px;">in the field, in a three-dimensional experience that generates</p>
+							    <p style="max-width:620px;">savings and improves the safety of real operations</p>
+							</div>
+
+
+							<div class="first-Txt">
+								<article class="txtCol left-align">
+									<p><span class="dropCaps">I</span>n the 2009 movie Virtuality, by director Peter Berg, a spaceship housing a human community embarks on a 10-year voyage into space, and its main tool for remembering life on Earth is a computer that simulates reality. Although we are in the era of ever more sophisticated videogames and 3D television sets, the first attempt to design artificial reality came out of the aerospace industry, in 1950, with the development of flight simulators by the United States Air Force. This was then followed by the entertainment sector in the following decades.</p>
+									<p>Since the first simulators, the evolution of virtual reality technology has improved, reaching a high level of sophistication not only for entertainment applications, but especially for industrial sectors. So-called serious games are already used in sectors as varied as education, defense and oil and gas, which depend on advanced technology and spend millions of dollars on research and development. There are sectors in which the simulation of a situation represents not just major savings, but also improved safety through the projection of hypotheses in hazardous situations.</p>
+								</article>
+							</div>
+							<div class="second-Txt">
+								<article class="txtCol right-align">
+									<h3>REAL DIMENSIONS </h3>
+									<p>“At Petrobras, 3D simulations have become crucial to anticipate possible problems, verify non-conformities and train people to operate equipment,” explains Luciano Pereira dos Reis, a consultant in Petrobras’ Operations and Logistics Optimization Technology Area and one of the people responsible for the Center for Visualization and Collaboration (known by Portuguese acronym NVC), located at the company’s research center (Cenpes). Since 2010, when Petrobras opened the NVC, the simulation of situations in real environments has made it possible for technicians and specialists to interact virtually with platforms, pipelines, refineries and photovoltaic power plants, among other types of equipment and facilities, as well as structures in the area of geosciences, such as oil and gas reservoirs, and structures in natural environments, such as riverbeds and coastal areas.</p>
+									<p>At the NVC, technicians and specialists can thereby have the experience of being inside a project in real dimensions. It is possible, for example, to be on one of the platforms installed in Albacora Leste field, in Campos Basin, visiting each area of the production unit, or to descend risers to the seabed and stand alongside the wet Christmas trees and manifolds, or even to enter the field’s wells and reach their reservoirs. Likewise, says Luciano, one can walk through the Rio de Janeiro Petrochemical Complex (Comperj), still under construction, visualizing pipelines, valves and tanks, and checking the integrity of equipment and safety procedures, such as escape routes established for emergencies.</p>
+								</article>
+							</div>
+							<div class="third-Txt">
+								<article class="txtCol left-align">
+									<h3>A TOUR THROUGH THE NVC</h3>
+									<p>Entering the NVC, visitors come across several laboratories and rooms, featuring a semi-immersive visualization system, an ultra-high-resolution system and a “Cave”. The rooms reproduce three-dimensional images, with audio and video, and use cooperative systems, allowing multiple users to participate in the activities. The equipment includes digital gloves, glasses, immersion helmets, monitors and other devices, such as games controls, which assist with the immersion. The structures have a similar objective – to permit interaction between users and equipment in a virtual reality environment, in three dimensions. However, each one presents specific characteristics, in line with the type of application desired.</p>
+									<p>
+									The semi-immersive visualization room has a huge frontal screen, with an ultra-HD resolution (four times full HD), 7 meters wide by nearly 3 meters high, as well as a screen on the floor, also 7 meters wide and 1.5 meters long. “These dimensions allow the 3D experience to be had by around 20 technicians at a single time, sometimes from different areas, and this expands observations and the exchange of ideas about the project that is being visualized,” says Luciano.</p>
+									<p>
+									Adjacent to the semi-immersive visualization room, there is another room with a so-called ultra-high-resolution system – featuring a single glass screen showing a continuous image, without edges, and of extremely high resolution (with more than 40 million pixels – equivalent to approximately 20 full HD screens – generated by six ultra HD projectors). This environment permits the viewing of everything from satellite images (used in exploration and environmental areas) to microscopic or tomographic images, such as those used for rock analysis. It also makes it possible to view several documents or windows at the same time, in high resolution, which can help in analyzing reservoir simulation scenarios, for example.
+									</p>
+									<p>
+									In the “Cave,” images are projected onto five screens – one frontal, two lateral, one on the floor and one on the ceiling. This permits greater interaction between users and the environment, especially because the glasses worn for 3D visualization have a tracking system, which puts the person in the exact spatial location in relation to the real structure of the projected equipment. However, the Cave has smaller dimensions – around 6 square meters per screen – thereby reducing the number of people who can interact in the virtual environment. “In the Cave, users’ field of view is completely taken up by the image,” explains Luciano.
+									</p>
+									<p>
+									The three environments need powerful software in order for the interaction process in virtual reality to be possible. According to the Petrobras consultant, various tools that enable this action already exist in the market, especially in the field of engineering. However, one of the challenges facing the oil industry as a whole is to create software to integrate all the segments, thereby creating an environment in which the different areas of a company can act simultaneously in viewing structures.
+									</p>
+								</article>
+							</div>
+
+							
+
+							<div class="fourth-Txt">
+								<article class="txtCol left-align">
+									<h3>CUSTOMIZED VIRTUALITY</h3>
+									<p>In 2007, Petrobras commissioned the Tecgraf Institute for Technical-Scientific Software Development at Rio de Janeiro Catholic University (PUC-Rio) to develop some specific software programs for the visualization rooms planned for Cenpes’ new facilities. “In the engineering area there are platform construction projects, while in the geosciences there are very specific reservoir analysis projects. However, there has been nothing to provide an overview of it all, because they are completely different worlds. In addition, there is a lot of data, so there is the challenge of the sheer amount of this information. As a result, the software was predesigned to run in these facilities,” notes Alberto Raposo, a professor in the Information Technology Department of PUC-Rio and manager of Tecgraf’s Virtual and Augmented Reality Group.</p>
+									<p>
+									From this demand there arose the System for Visualization in E&P (SiViEP), one of the main software programs specifically produced for Petrobras. “In the case of SiVIEP, we had the requirement to visualize models of different areas in the same scene, something that did not exist in the market. Through it, the idea is to provide an integrated view of the entire production system, joining together the reservoir with the engineering part. The software works in stereo, with a 3D interaction device, not the conventional mouse-keyboard interaction. It’s not designed for sitting down, but for standing up, immersed in the model. You can interact with gestures, in a more natural way,” adds Luciano. However, to permit its wider use, in any work environment, it can also be used in desktop mode, with a conventional mouse-keyboard interface.
+									</p>
+									<p>
+									This software creates a virtual reality in which users “tour” the production unit, seeing equipment in its real dimensions. From here, it is also possible to “dive” to the seabed, interacting with subsea equipment such as Christmas trees, risers and manifolds. And users can go even deeper, “entering” wells and reaching the reservoirs.
+									</p>
+									<p>
+									SiViEP, however, is not the only tool developed in partnership between Petrobras and Tecgraf. There are programs in the engineering and robotics areas – coordinated by analyst Ismael Humberto dos Santos, of the same company area – to potentially replace people on platforms, among other actions, and also for the optimized operation of remotely operated underwater vehicles (ROVs). One of the development projects now nearing completion involves training personnel to operate photovoltaic power plants.
+									</p>
+								</article>
+							</div>
+
+							<div class="fifth-Txt">
+								<article class="txtCol left-align">
+									<h3>NO WAY BACK</h3>
+									    <p>Luciano and Raposo agree that integration between areas in virtual reality is a one-way street. The major challenge will be to develop visualization techniques and equipment with an ever greater processing capacity to handle the exponential growth in the information obtained.</p>
+										<p>
+										In the case of Brazilian pre-salt, it will be necessary to adapt existing tools for data processing, such as for the 4D seismic surveying to be undertaken in Lula field, in Santos Basin. “The software developed so far may be used for pre-salt. The difficulty with pre-salt is its size,” reinforces the PUC-Rio professor.
+										</p>
+										<p>
+										At Cenpes, a dedicated team in the information technology area is looking after the constant evolution of the NVC’s infrastructure, as well as supporting the operation of different environments. Processing more does not mean growing in size, though. As Luciano notes, some years ago virtual reality visualization required large equipment costing up to US$1 million. Today, however, the materials are ever more compact, but faster – and cheaper. “Virtual reality helmets have been around for a long time, but they used to be expensive, with low resolution and a slower response time, and it was a system more geared for individual use. 
+										</p>
+										<p>
+										In recent years this has changed. There is now equipment with excellent performance and very low costs, around US$300 or US$400, down from US$10,000 or US$20,000 for each pair of glasses years ago. Without a doubt, this will further popularize the idea of virtual reality,” predicts the Petrobras consultant.
+										</p>
+								</article>
+							</div>
+
+							
+
+						<!-- 	<div class="galleryBtn">
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Steve_Wozniak___Steve_Jobs_Office.jpg" title="Steve Wozniak and Steve Jobs, founders of Apple">Photo Gallery</a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/DSC1964OK.jpg" title="Coppe LAMCE Engineering Computational Methods Laboratory, building at the UFRJ Technology Park"></a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Intel78-chip.jpg" title="Chip created by Intel in 1978"></a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Early-Keyboard.jpg" title="One of the first computer keyboards"></a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Fairchild8-Traitorous-8.jpg" title="The “Traitorous Eight,” the group of eight engineers who founded Fairchild Semiconductor, a company that produced the first commercially available integrated circuit"></a>
+							</div> -->
+							
+							<div class="toTop">
+								<a href="javascript:backtotop()" class="ui-link"><img src="../frontiers/imgs/backToTopBtn.png"></a>
+							</div>
+									
+						</div><!-- / End textos -->
+								
+								
+						</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+        <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+			<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+            
+            </div><!-- / End Panel -->
+
+            
+    </div><!-- / End Page -->
+
+
+	<script src="../js/pmgc-FrameWork.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+body html {
+	height: 100%;
+	width:100%;
+	position: relative;
+}
+
+/** ----------------------------------
+
+	background-size, babackground-attachement hack 
+	Estas dos declaraciones de Css permiten que el fondo este fijo y escalado al centro del viewport 
+
+**/
+#bg {
+ position: fixed; 
+ top: -50%; 
+   left: -50%; 
+   width: 200%; 
+   height: 200%;
+   z-index:0;
+}
+#bg img {
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ right: 0; 
+ bottom: 0; 
+ margin: auto; 
+ width: 50%;
+ height: 50%;
+ z-index: 1;
+}
+
+/** End of background hack **/ 
+
+.logoPB{
+	position: absolute;
+	top: 0px;
+	right:0px;
+	width:543px; 
+	height:168px;
+	background: url('../imgs/logoPB.png') no-repeat;
+}
+
+.index{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+h4{
+	color:black;
+	font-size: 10px !important;
+	font-family: 'petrobras_sansitalic' !important;
+	text-transform: uppercase;
+	font-weight:lighter !important;
+	font-style:normal !important;
+}
+h3{
+ color: black;
+    font-family: "petrobras_sansbold" !important;
+    font-size: 14px !important;
+    letter-spacing: -0.5px;
+    margin-bottom: -5px !important;
+    margin-top: 4px !important;
+    text-shadow: none;
+}
+p{
+	font-weight:normal !important;
+	font-style:normal !important;
+	color:black;
+	font-size: 11px !important;
+	font-family: 'petrobras_sanslight' !important;
+}
+
+.ui-panel-inner p {
+	font-size:18px !important;}
+	
+.article {
+	margin: 5px 0;
+	width: 30%;
+}
+.article p{
+	width: 70%;
+}
+
+.dimensions{
+	position: absolute;
+	top: 21%;
+	left: 68% ; 
+}
+.dialogo{
+	position: absolute;
+	top: 24%;
+	left: 20% ; 
+}
+.allOver{
+	position: absolute;
+	top: 34%;
+	left: 4% ; 
+}
+.frontiers{
+position: absolute;
+    right: -4%;
+    top: 32%;
+    width: 25%;
+}
+.energyGeek{
+	position: absolute;
+	top: 45%;
+	left: 5% ; 
+}
+.prisma{
+	position: absolute;
+	top: 57%;
+	left: 5% ; 
+}
+.overTheSeas{
+	position: absolute;
+	top: 68%;
+	left: 22% ; 
+}
+.artBook{
+	position: absolute;
+	top: 64%;
+	left: 68% ; 
+}
+.bigbang{
+	position: absolute;
+	top: 70%;
+	left: 55% ; 
+}
+.profile{
+	position: absolute;
+top: 50%;
+right: 1% ;
+width: 20%; 
+}
+.welcome{
+	position: absolute;
+	top: 5%;
+	left: 13% ;
+	width: 50%;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.color-Dialogues{
+	color: #FECC07;
+}
+.color-Bigbang{
+	color: #0F5391;
+}
+.color-ArtBook{
+	color: #DF6E1D;
+}
+.color-Frontiers{
+	color: #6C5B4D;
+}
+.color-Dimensions{
+	color: #5C5C5C;
+}
+.color-EnergyGeek{
+	color: #FFCA02;
+}
+.color-AllOver{
+	color: #DC6707;
+}
+.color-OverTheSeas{
+	color: #00A4A0;
+}
+.color-Prisma{
+	color: #068141;
+}
+.color-Profile{
+	color: #FFCC03;
+}
+.color-Welcome{
+	color: #5C5C5C;
+}
+
+
+
+
+
+

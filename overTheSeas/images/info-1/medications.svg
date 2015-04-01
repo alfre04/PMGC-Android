@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="55px" height="49px" viewBox="0 0 55 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>medications</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="medications" sketch:type="MSLayerGroup" transform="translate(0.000000, -2.000000)">
+            <path d="M0.967,50.584 L31.794,47.774 M0.967,50.584 L49.101,33.529 M0.967,50.584 L17.475,15.368 M1.419,49.612 L2.082,27.904" id="Stroke-1" stroke="#123C54" stroke-width="0.709" sketch:type="MSShapeGroup"></path>
+            <path d="M35.636,36.391 L38.989,37.137 L36.667,39.667 L35.636,36.391" id="Fill-2" fill="#123C54" sketch:type="MSShapeGroup"></path>
+            <path d="M12.312,22.571 L15.079,20.537 L15.457,23.951 L12.312,22.571" id="Fill-3" fill="#123C54" sketch:type="MSShapeGroup"></path>
+            <path d="M0.12,36.833 L1.86,33.872 L3.554,36.859 L0.12,36.833" id="Fill-4" fill="#123C54" sketch:type="MSShapeGroup"></path>
+            <path d="M18.74,47.182 L21.802,48.736 L18.925,50.611 L18.74,47.182" id="Fill-5" fill="#123C54" sketch:type="MSShapeGroup"></path>
+            <text id="MEDICATIONS" sketch:type="MSTextLayer" font-family="Petrobras Sans" font-size="8.5094" font-weight="bold" letter-spacing="-0.0242" fill="#131514">
+                <tspan x="1.7598" y="8.94758787">MEDICATIONS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

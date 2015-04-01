@@ -1,0 +1,229 @@
+
+
+.title {
+	position: relative;
+	background-color: red;
+	height: 1024px;
+	width: 768px;
+	background: url('../imgs/fondo-portada.jpg') no-repeat;
+	background-position: -0px 0px;
+}
+.title h1 {
+	color:#008c4f;
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 29%;
+	left:10%; 
+	width: 90%;
+	text-shadow: 0px 1px 0px #000;
+
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #00814A;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+.inicial{
+	font-size:5.6em;
+	color:#008c4f;
+	line-height:70px;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------- Objet positions*/
+
+
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+.intro-Article{
+	position: absolute;
+	top: 600px;
+}
+
+.titfoto1{
+	position: absolute;
+	left: 20px;
+	top: 1154px;
+}
+
+.forum{
+	position: absolute;
+	right: 0;
+	top: 1100px;
+}
+
+.first-Txt{
+	position: absolute;
+	top: 3450px;
+}
+
+.graficauno{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 3327px;
+}
+.graficados{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 3592px;
+}
+.graficatres{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 4137px;
+}
+
+
+
+.pre-second-Txt{
+	position: absolute;
+	top: 2000px;
+}
+
+.second-Txt{
+	position: absolute;
+	top: 6100px;
+}
+
+.pleca1{
+	position: absolute;
+	top: 2600px;
+	left: 0;
+}
+.third-Txt{
+	position: absolute;
+	top: 6250px;
+}
+
+.pleca2{
+	position: absolute;
+	top: 5900px;
+	left: 0;
+}
+.fourth-Txt{
+	position: absolute;
+	top: 6400px;
+}
+.fifth-Txt{
+	position: absolute;
+	top: 7009px;
+}
+
+
+.fotofin{
+	position: absolute;
+	top: 6556px;
+	left: 0px;
+}
+
+.pleca3{
+	position: absolute;
+	top: 6880px;
+	right: 0px;
+}
+
+
+
+.toTop{
+	position: absolute;
+	top: 9320px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 6257px;
+	left: 0px;
+}
+
+
+/* ANIMACIONES NUMEROS E ILUSTRACIONES */
+
+#number1 {
+	 color: #128b4d;
+    font-size: 91px;
+    left: 46px;
+    position: absolute;
+    top: 86px;
+	}
+	
+#number2 {
+	 color: #128b4d;
+    font-size: 91px;
+    left: 46px;
+    position: absolute;
+    top: 486px;
+	}
+	
+	
+
+#number_weels {
+	color: #128b4d;
+ font-size: 66px;
+    left: 453px;
+    position: absolute;
+    top: 53px;}
+
+
+#number_platform {
+  color: #128b4d;
+    font-size: 61px;
+    left: 602px;
+    position: absolute;
+    top: 217px;}
+	
+#number_exploration22 {
+	color: #128b4d;
+ font-size: 34px;
+    left: 477px;
+    position: absolute;
+    top: 324px;}
+
+#number_exploration52 {
+	color: #e17632;
+ font-size: 34px;
+    left: 597px;
+    position: absolute;
+    top: 324px;}
+
+#number_exploration70 {
+	color: #128b4d;
+ font-size: 34px;
+    left: 477px;
+    position: absolute;
+    top: 436px;}
+
+#number_exploration100 {
+	color: #128b4d;
+ font-size: 34px;
+    left: 597px;
+    position: absolute;
+    top: 436px;}
+	
+#quinientos {
+	display:inline-block;
+	
+	position:relative;}

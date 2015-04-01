@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+		<title>Index || Petrobras Magazine Global Connections</title>
+
+		<meta name="Resource-type" content="Document" />
+
+		<link rel="stylesheet" type="text/css" href="css/indice.css" />
+
+		<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+		
+	<!--	<link rel="stylesheet" type="text/css" href="css/dialogues-LayerHeights.css" /> -->
+
+		<!-- Menu ( Css - Js )-->
+	  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+        <link rel="stylesheet" href="../css/jqm-demos.css">
+		
+        
+        <script src="../js/jqueryPMGC.min.js"></script>
+        <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+        </script>
+  </head>
+
+  <body>
+  		<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+            <div class="ui-panel-wrapper">
+               
+                <div role="main" class="ui-content" id="content">
+
+					<!--
+					############################################
+					Contenidos de la Revista
+					-->
+                  
+                    <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+					<div id="wrapper">
+
+						<div id="scroller">
+
+							<section>
+                            
+                            
+                            <div id="bg">
+                                <img src="imgs/low-fondo-indice.jpg">
+                            </div>
+
+       
+				
+
+
+                
+		<div class="index">
+
+<!--
+            <div class="logoPB"></div>
+
+
+            <a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article welcome">
+                    <h4>Welcome</h4>
+                    <h3 class="color-Welcome">In search of discovery</h3>
+                    <p>Edition 65 of Petrobras Magazine Global Connections shows the combination of creativity and effort as the path to innovate and achive ever more challenging results.</p>
+                     
+                </div>
+             
+            </a>
+-->
+            <a href="../dimensions/dimensions.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article dimensions">
+                     <h4>New Dimensions</h4>
+                     <h3 class="color-Dimensions">Global challenges<br/> in sustainable energy</h3>
+                     <p>Ged Davis, of the World Energy Council, talks about future scenarios</p>
+                     
+                </div>
+             
+            </a>
+
+			<a href="../dialogues/dialogues.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article dialogo">
+                    
+                     <h4>Dialogues</h4>
+                     <h3 class="color-Dialogues">Ideas for the 21st century</h3>
+                     <p>Domenico De Masi and Michael Green talk about economic balance and quality of life</p>
+                   
+                </div>
+             
+            </a>
+
+            <a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article allOver ">
+                     <h4>All Over</h4>
+                     <h3 class="color-AllOver">The next wave of innovation</h3>
+                     <p>Events debate key issues in the oil and gas sector</p>
+                    
+                </div>
+                
+            </a>
+            <a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article frontiers">
+                     <h4>Frontiers</h4>
+                     <h3 class="color-Frontiers">In another dimension</h3>
+                     <p>Virtual reality takes technicians from companies into projects in the field</p>
+                </div>
+			
+            </a>
+            <a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">
+               
+                <div class="article energyGeek ">
+                     <h4>Energy Geek</h4>
+                     <h3 class="color-EnergyGeek">Remote Operation</h3>
+                     <p>“Subsea to somewhere” and “subsea to shore” concepts take equipment from the platforms to the seabed</p>
+
+                </div>
+                
+            </a>
+            <a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article prisma ">
+                     <h4>Prisma</h4>
+                     <h3 class="color-Prisma">Gender Equality</h3>
+                     <p>A matter of social justice, human rights and sustainable development. <br/> By Laís Abramo, director of ILO Brazil.</p>
+                    
+                </div>
+                
+            </a>
+            <a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">
+               
+                <div class="article profile">
+                     <h4>Profile</h4>
+                     <h3 class="color-Profile">Probable Genius</h3>
+                     <p>Arthur Ávila, the Brazilian who won a Fields Medal, the "Nobel Prize" of Mathematics</p>
+                    
+                </div>
+                
+            </a>
+            <a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article overTheSeas ">
+                     <h4>Over the seas</h4>
+                     <h3 class="color-OverTheSeas">Cure that comes <br/>from the sea</h3>
+                     <p>Research into typical Brazilian coral identifies substance able to fight super-bacteria</p>
+            
+                </div>
+                
+            </a>
+            <a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article artBook ">
+                     <h4>ArtBook</h4>
+                     <h3 class="color-ArtBook">Kaleidoscope of art</h3>
+                     <p>The style, history and some of the works of OSGEMEOS</p>
+           
+                    
+                </div>
+           
+            </a>
+
+             <a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">
+                
+                <div class="article bigbang">
+                     <h4>Big Bang</h4>
+                     <h3 class="color-Bigbang">Curious facts</h3>
+                     <p>Find out about some researches that can contribute to the preservation of the environment</p>
+            
+                    
+                </div>
+             
+            </a>
+
+		</div>
+
+	
+							</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+					<!--
+					End - Contenidos de la Revista
+					############################################
+					-->
+
+				</div><!-- / End Content -->
+
+			</div><!-- / End ui-panel-wrapper -->
+            
+
+            <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate" style="z-index:999;">
+
+				<div class="ui-panel-inner" style="z-index:999; position:relative;" >
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div>
+            </div><!-- / End Panel -->
+
+            
+        </div><!-- / End Page -->
+
+	
+
+  </body>
+</html>

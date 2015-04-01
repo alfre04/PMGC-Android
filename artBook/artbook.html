@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+	<title>ArtBook || Petrobras Magazine Global Connections</title>
+  	<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/artBook.css" />
+	<link rel="stylesheet" type="text/css" href="css/artBook-LayerHeights.css" />
+
+	<!-- Menu ( Css - Js )-->
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+	
+    <script src="../js/jqueryPMGC.min.js"></script>
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
+  
+	<!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".Gallery").colorbox({rel:'Gallery', width:"90%", height:"auto"});
+				$(".Gallery2").colorbox({rel:'Gallery2', width:"90%", height:"auto"});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+	</script>
+
+</head>
+
+<body>
+  	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller">
+
+						<section>
+
+						<div class="layer background" data-stellar-ratio="1">
+							
+							<div class="title" >
+								<h1><span class="Big">ART </span><br>kaleidoscope</h1>
+							</div>
+
+							<div class="footer">
+								<img src="imgs/footerArtbook.png">
+							</div>
+									
+						</div> <!-- End of BackGround -->
+
+								
+						<div class="layer layer1" data-stellar-ratio="1.2">
+							
+
+							<img class="sixth-picture" src="imgs/foto-avion.jpg">
+
+
+
+						</div><!-- fin de fotos -->
+
+
+						<div class="layer layer2" data-stellar-ratio="1.4">
+
+
+
+
+							<div class="foto6-Caption">
+								<div class="fotoCaption" style="width:100%">
+									<p>OSGEMEOS-decorated GOL Airlines Boeing plane used to <br/>
+                                    transport the Brazilian soccer team during the 2014 World Cup</p>
+								</div>
+							</div>
+                            
+
+
+
+
+							<img class="first-pleca" src="imgs/pleca-1.png">
+
+							<img class="second-pleca" src="imgs/pleca-2.png">
+
+							
+
+
+
+
+							
+
+
+
+						</div><!-- fin de infographics -->
+
+						<div class="layer layer3" data-stellar-ratio="1.6">
+									    
+							<div class="sectionHeader"><img src="imgs/artbookHeader.png"></div>
+							<div class="lineasSubHead">
+								<p style="max-width:440px;">The urban surrealism that transports the real to the</p>
+								<p style="max-width:485px;">imaginary in OSGEMEOS’ contemporary artwork combines</p>
+								<p style="max-width:525px;">colors and multiple dimensions that have conquered the world</p>
+							</div>
+
+
+							<div class="video-1">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/a38xoWB6NAw?rel=0" frameborder="0" allowfullscreen></iframe>
+									</div>
+                                    
+                            <div class="video-2">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yLUmx0dDZAw?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            
+                              <div class="titsvideos">
+								<div class="fotoCaption">
+									<p>See OSGEMEOS working </p>
+								</div>
+							</div>
+
+
+
+
+							<div class="first-Txt">
+								<article class="txtCol left-align DoubleSize">
+									<p><span class="dropCaps" style="color:#ed6b06;">A</span>huge 360-degree mural featuring six gigantic silos extends for 2,000 square meters, and 20 meters in height, at the Vancouver Biennale art exhibition in Canada. This public artwork, now considered the most iconic in the country, is the first incursion of Brazilian graffiti artists and twins, Otávio and Gustavo Pandolfo, on Granville Island in Vancouver. Invited to participate in one of North America’s most important urban contemporary art exhibitions, OSGEMEOS (Portuguese for “THETWINS”), as they are known, entice the Biennale’s visitors to enter into a dialogue between two and three-dimensional worlds through the imposing artwork of their “Giants” series – large art interventions already staged in Greece, the USA, the Netherlands and Brazil.</p>
+
+								</article>
+							</div>
+							<div class="second-Txt">
+								<article class="txtCol right-align">
+									<p>Influenced by 1980s hip hop culture, the brothers – who were born in the city of Cambuci, in the state of São Paulo, and who studied communications design at the Carlos de Campos State Technical School – used graffiti to win over the walls of the streets in the neighborhood where they lived, institutionalizing the OSGEMEOS double act and quickly becoming known as leaders in the São Paulo urban scene and the Brazilian graffiti style.</p>
+								</article>
+							</div>
+							<div class="third-Txt">
+								<article class="txtCol right-align">
+									<p>Inspired by various icons of contemporary art, such as Slava Polunin (Russia), Roger Waters (United Kingdom), Aryz (Spain), Blu (Italy) and Barry McGee (United States), the twins developed multiple techniques and aids that coexist simultaneously or alternately: from drawing to graffiti and murals, from painting to kinetic images, sculptures and installations.</p>
+      <p>
+      Their artworks intervene in cities like a kaleidoscope of images of many different origins, featuring surreal elements overlapping with multiple highlighted and colorful dimensions. They use combined visual languages, improvisation and a playful vision to create works that have led them to tour the world, with solo and group exhibitions at museums and galleries in countries such as Cuba, Chile, the United States, Italy, Spain, England, Germany, Lithuania and Japan.
+      </p>
+      
+								</article>
+							</div>
+
+							
+
+							<div class="fourth-Txt">
+								<article class="txtCol left-align DoubleSize">
+									<p>
+	      In 2014, OSGEMEOS starred in the exhibition “The Opera of the Moon” at the Galpão Fortes Vilaça venue in São Paulo. The exhibition of 30 paintings, three sculptures and a 3D video installation took one year to be designed, and it received more than 60,000 visitors in the space of two months. For the first time in the brothers’ career, their art was presented in an immersive environment, with poetic, ironic and critical narratives, featuring many details in the construction of images, the main characteristic of their artistic expression.</p>
+      <p>
+      Exploring the twins’ artworks requires letting reason give way to the imaginary. It means perceiving their subtleties and embarking on an experience that goes beyond the visual: “feel first in order to understand later,” as they say. Their combined visual languages encompass castles, buildings, tunnels, trains and even a Boeing 737-800. In 2014, the double act fulfilled their desire to paint the airplane that transported the Brazilian soccer team during the World Cup in Brazil.
+      </p>
+      <p>
+      At the 2014 Vancouver Biennale, the brothers’ work continues on with their “Giants” series. The multicolor silos of the Canadian Giants series contrast with the everyday gray landscape of the industrial district of Granville, on False Creek, an inlet in downtown Vancouver. Reflected in the water, the silos highlight another element of the twins’ work. In their view, “Water acts like a vein, symbolizing life, and it is always strongly present in our art.”
+      </p>
+								</article>
+							</div>
+
+
+							
+
+						 	<div class="galleryBtn" >
+								<a class="Gallery ui-link cboxElement" href="imgs/foto1-1.png" title="“My Feet are Floating”, 2013 / Photo: Eduardo Ortega">
+                                <img src="imgs/cuadros.png"/>
+                                </a>
+								<a class="Gallery ui-link cboxElement" href="imgs/foto1-2.png" title="“Got Married to Check How it is”, 2013 / Photo: Eduardo Ortega"></a>
+								<a class="Gallery ui-link cboxElement" href="imgs/foto1-3.png" title="“Since Then”, 2013 / Photo: Eduardo Ortega"></a>
+								<a class="Gallery ui-link cboxElement" href="imgs/foto1-4.png" title="“Portrait”, 2013 / Photo: Eduardo Ortega"></a>
+								<a class="Gallery ui-link cboxElement" href="imgs/foto1-5.png" title="Detail of panel produced for the Vancouver Biennale / Photo: Vancouver Biennale"></a>
+							</div>
+                            
+                            
+                            <div class="galleryBtn" style="top:5130px !important;">
+								<a class="Gallery2 ui-link cboxElement" href="imgs/foto2-1.png" title="The multicolor silos of the Canadian Giants series contrast with the gray landscape of the industrial district of Granville. / Photos: Vancouver Biennale">
+                                <img src="imgs/cuadros_2.png"/>
+                                </a>
+								<a class="Gallery2 ui-link cboxElement" href="imgs/foto2-2.png" title="The multicolor silos of the Canadian Giants series contrast with the gray landscape of the industrial district of Granville. / Photos: Vancouver Biennale"></a>
+								<a class="Gallery2 ui-link cboxElement" href="imgs/foto2-3.png" title="The multicolor silos of the Canadian Giants series contrast with the gray landscape of the industrial district of Granville. / Photos: Vancouver Biennale"></a>
+								<a class="Gallery2 ui-link cboxElement" href="imgs/foto2-4.png" title="OSGEMEOS at work in their studio / Photo: OSGEMEOS"></a>
+							</div> 
+							
+							<div class="toTop">
+								<a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a>
+							</div>
+									
+						</div><!-- / End textos -->
+								
+								
+						</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+        <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+			<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div><!-- / End Panel -->
+
+            
+    </div><!-- / End Page -->
+
+
+	<script src="../js/pmgc-FrameWork.min.js"></script>
+
+</body>
+
+</html>

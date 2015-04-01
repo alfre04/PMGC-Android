@@ -1,0 +1,51 @@
+h1 {
+	font-family: 'petrobras_sansbold';
+	text-align: left;
+	color: white;
+	font-size: 2em;
+	text-shadow: none;
+}
+h2 {
+	font-family: 'petrobras_sansbold';
+	text-align: left;
+	color: white;
+	font-size: 1.5em;
+	text-shadow: none;
+}
+h5 {
+	font-family: 'petrobras_sansbold';
+	text-align: left;
+	color: white;
+	font-size: 2.1em;
+	text-shadow: none;
+}
+
+p {
+	font-family: 'petrobras_sansregular';
+	text-align: left;
+	color: black;
+	font-size: 1em;
+	text-shadow: none;
+}
+.forceLineHeight {
+	line-height: 1.1em !important;
+}
+
+
+.colH1{
+	font-family: 'petrobras_sansbold';
+	font-size:2em;
+	letter-spacing: -1px;
+	color: #F27321;
+	line-height: 1em;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.colBodyTxt {
+	font-family: 'petrobras_sansregular';
+	font-size: .9em;
+	color: #000;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	text-align: left;
+}

@@ -1,0 +1,237 @@
+.accentColorInside{
+	background-color: #F8C73F;
+	color: #00814C;
+}
+
+
+.title {
+	z-index:101;
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 768px;
+/*	background: url('../imgs/circulos_home.jpg') no-repeat; */
+	background-position: -0px 0px;
+}
+.title h1 {
+	color:#005b94;
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 13%;
+	left:10%; 
+	width: 90%;
+	
+
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.lineasSubHead p{
+	font-family: 'petrobras_sansitalic';
+	text-shadow:none;
+	font-size: 1.15em;
+	color: black;
+	padding: 1px 20px 1px 50px;
+	background-color: #FFCE38;
+	margin-top: 4px;
+	width: auto;
+}
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #00814A;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+.txtBy{
+	color: #005b94;
+	text-shadow:none;
+	font-size: 1em;
+}
+.by {
+	border-bottom: 3px solid #F4B827;
+	height: 30px;
+	display: inline-block;
+}
+.botLine {
+	border-bottom: 7px solid #F4B827;
+	height: 110px;
+	width: 60px;
+	display: inline-block;
+}
+
+
+.lineasazules p {
+    background-color: #6d92a8;
+    color: white;
+    font-family: "petrobras_sansitalic";
+    font-size: 1.2em;
+    margin-top: 4px;
+    padding: 1px 20px 1px 50px;
+    text-shadow: none;
+    width: auto;
+	float:left;
+	clear:both;
+}
+
+
+
+/* ------------------------------------------- positions*/
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.lineasazules {
+    left: 0;
+    position: absolute;
+    top: 800px;
+    width: auto;
+}
+.txtBy{
+	position: absolute;
+	top: 360px;
+	left: 10%;
+}
+.first-Txt{
+	position: absolute;
+	top: 1100px;
+}
+.second-Txt{
+	position: absolute;
+	top: 1350px;
+}
+
+.second-picture{
+	position: absolute;
+	top: 2450px;
+}
+.toTop{
+	position: absolute;
+	top: 4300px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 3080px;
+	left: 0px;
+}
+
+
+
+/* ANIMACION CIRCULO*/
+
+.carruselcirculo {
+	position:relative;
+	z-index:100;
+	top:250px;
+	left:50px;
+	}
+
+.divi {
+    border-radius:50%;
+  /*  border:2px solid #000; */
+    position:fixed;
+}
+#center {
+    
+   left: 48px;
+    top: 152px;
+    position: absolute;
+    
+}
+#center img {
+/*	margin-left: -94px;
+    margin-top: -88px; */
+	}
+
+
+
+
+#sat0 {
+	left: 268px;
+    position: absolute;
+    top: 100px;
+	
+	}
+	
+	
+#sat1 {
+	left: 488px;
+    position: absolute;
+    top: 197px;
+	
+	}
+	
+#sat2 {
+	  left: 543px;
+    position: absolute;
+    top: 370px;	
+	
+	}
+	
+#sat3 {
+   left: 488px;
+    position: absolute;
+    top: 600px;
+	
+	}
+	
+#sat4 {
+left: 268px;
+    position: absolute;
+    top: 660px;
+	
+	}
+	
+#sat5 {
+	   left: 88px;
+    position: absolute;
+    top: 600px;
+	
+	}
+	
+#sat6 {
+ left: -17px;
+    position: absolute;
+    top: 368px;
+	
+	}
+	
+#sat7 {
+	   left: 88px;
+    position: absolute;
+    top: 200px;
+	
+	}
+	
+
+	
+	
+
+/*
+
+#sat1, #sat3, #sat5, #sat7 {
+    width:90px;
+    height:90px;
+    
+}
+
+#sat0, #sat4 {
+    width:118px;
+    height:118px;
+    
+}
+
+#sat2, #sat6 {
+    width:134px;
+    height:134px;
+    
+}
+*/
