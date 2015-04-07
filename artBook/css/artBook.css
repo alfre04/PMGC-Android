@@ -15,7 +15,7 @@
 	color:#fff;
 	font-family: 'petrobras_sansbold';
 	position: absolute;
-	font-size: 5.6em;
+	font-size: 5em;
 	top: 29%;
 	left:10%; 
 	width: 90%;
@@ -150,21 +150,23 @@ h3 {
    |********| */
 .video-1{
 	position: absolute;
-	left: 100px;
-	top: 6750px;
+	left: 50%;
+	margin-left: -280px;
+	top: 6850px;
 }
 
 .titsvideos{
  font-size: 26px;
-    left: 231px;
+    left: 4%;
     position: absolute;
-    top: 6263px;
+    top: 6333px;
 	font-weight:bold;
 }
 .video-2{
 	position: absolute;
-	left: 100px;
-	top: 6400px;
+	left: 50%;
+	margin-left: -280px;
+	top: 6500px;
 }
 
 
@@ -216,7 +218,7 @@ TxtCols
 .galleryBtn {
 	background-color:#FFF !important;
 	position: absolute;
-	top: 2500px;
+	top: 2550px;
 	left: 0px;
 	
 	padding:0px !important;

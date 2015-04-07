@@ -104,12 +104,13 @@ h3 {
 }
 .second-Txt{
 	position: absolute;
-	top: 1350px;
+	top: 1390px;
 }
 
 .second-picture{
 	position: absolute;
-	top: 2450px;
+	top: 2650px;
+	width: 100%;
 }
 .toTop{
 	position: absolute;

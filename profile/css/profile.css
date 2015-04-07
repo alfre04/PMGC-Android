@@ -24,9 +24,9 @@
 	position: relative;
 	background-color: transparent;
 	height: 1024px;
-	width: 768px;
+	width: 100%;
 	background: url('../imgs/pascal.png') no-repeat;
-	background-position: -0px 0px;
+	background-position: -100px 0px;
 }
 .color-Profile{
 	color: #FFCC03;
@@ -55,7 +55,7 @@
 	background-color: #bfc0c2;
 	color: black;
 	font-family: "petrobras_sansitalic";
-	font-size: 1.15em;
+	font-size: 1em;
 	margin-top: 4px;
 	padding: 1px 20px 1px 50px;
 	text-shadow: none;

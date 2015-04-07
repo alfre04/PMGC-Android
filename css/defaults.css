@@ -63,6 +63,9 @@ b{
 	padding: 3%;
 	box-shadow: none;
 }
+.txtColAndroidFix{
+	width: 50%;
+}
 .DoubleSize {
 	width: 70%;
 }
@@ -76,6 +79,12 @@ b{
 }
 .right-align {
 	margin-left: 45%;
+}
+.right-alignAndroidFix{
+	margin-left: 39%;
+}
+.imgAndroidFix{
+	width: 100%;
 }
 
 h3{

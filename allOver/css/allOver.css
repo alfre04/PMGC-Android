@@ -12,7 +12,7 @@
 	color:#008c4f;
 	font-family: 'petrobras_sanslight';
 	position: absolute;
-	font-size: 5.6em;
+	font-size: 4.4em;
 	top: 29%;
 	left:10%; 
 	width: 90%;
@@ -70,6 +70,7 @@ h3 {
 	position: absolute;
 	right: 0;
 	top: 1100px;
+	width: 100%;
 }
 
 .first-Txt{
@@ -100,7 +101,7 @@ h3 {
 
 .pre-second-Txt{
 	position: absolute;
-	top: 2000px;
+	top: 1900px;
 }
 
 .second-Txt{
@@ -125,7 +126,7 @@ h3 {
 }
 .fourth-Txt{
 	position: absolute;
-	top: 6400px;
+	top: 6250px;
 }
 .fifth-Txt{
 	position: absolute;
@@ -164,64 +165,64 @@ h3 {
 
 #number1 {
 	 color: #128b4d;
-    font-size: 91px;
-    left: 46px;
+    font-size: 60px;
+    left: 10%;
     position: absolute;
-    top: 86px;
+    top: 12%;
 	}
 	
 #number2 {
 	 color: #128b4d;
-    font-size: 91px;
-    left: 46px;
+    font-size: 60px;
+    left: 10%;
     position: absolute;
-    top: 486px;
+    top: 68%;
 	}
 	
 	
 
 #number_weels {
 	color: #128b4d;
- font-size: 66px;
-    left: 453px;
+ font-size: 60px;
+    left: 58%;
     position: absolute;
-    top: 53px;}
+    top: 7%;}
 
 
 #number_platform {
   color: #128b4d;
-    font-size: 61px;
-    left: 602px;
+    font-size: 50px;
+    left: 78%;
     position: absolute;
-    top: 217px;}
+    top: 29%;}
 	
 #number_exploration22 {
 	color: #128b4d;
- font-size: 34px;
-    left: 477px;
+ font-size: 28px;
+    left: 61%;
     position: absolute;
-    top: 324px;}
+    top: 58%;}
 
 #number_exploration52 {
 	color: #e17632;
- font-size: 34px;
-    left: 597px;
+ font-size: 28px;
+    left: 77%;
     position: absolute;
-    top: 324px;}
+    top: 58%;}
 
 #number_exploration70 {
 	color: #128b4d;
- font-size: 34px;
-    left: 477px;
+ font-size: 28px;
+    left: 62%;
     position: absolute;
-    top: 436px;}
+    top: 78%;}
 
 #number_exploration100 {
 	color: #128b4d;
- font-size: 34px;
-    left: 597px;
+ font-size: 28px;
+    left: 77%;
     position: absolute;
-    top: 436px;}
+    top: 78%;}
 	
 #quinientos {
 	display:inline-block;

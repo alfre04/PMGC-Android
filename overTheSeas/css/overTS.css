@@ -15,10 +15,10 @@
 	color:#005b94;
 	font-family: 'petrobras_sanslight';
 	position: absolute;
-	font-size: 5em;
+	font-size: 4.0em;
 	top: 29%;
 	left:10%; 
-	width: 90%;
+	width: 60%;
 	text-shadow: 0px 1px 0px #000;
 
 }
@@ -83,13 +83,13 @@ h3 {
 .aparece-1{
 	position: absolute;
 	top: 5%;
-	left: 2%;
+	left: 0%;
 	z-index: 1;
 }
 .aparece-2{
 	position: absolute;
 	top: 350px;
-	left: 12%;
+	left: 10%;
 	z-index: 2;
 }
 .aparece-3{
@@ -136,20 +136,20 @@ z-index: 8;
 .aparece-9{
 position: absolute;
 top: 200px;
-left: 47%;
+left: 48%;
 width: 15%;
 z-index: 9;
 }
 .aparece-10{
 position: absolute;
-top: 130px;
-left: 44%;
+top: 125px;
+left: 45%;
 z-index: 10;
 }
 .aparece-11{
 position: absolute;
 top: 90px;
-left: 18%;
+left: 19%;
 width: 24%;
 z-index: 12;
 }
@@ -255,6 +255,7 @@ a.navArrow.next::before{
 	position: absolute;
 	left: 0;
 	top: 4400px;
+	width: 100%;
 }
 .fifth-picture{
 	position: absolute;
@@ -279,12 +280,14 @@ a.navArrow.next::before{
 .video-1{
 	position: absolute;
 	top: 15000px;
-	left: 100px;
+	left: 50%;
+	margin-left: -280px;
 }
 .video-2{
 	position: absolute;
 	top: 15350px;
-	left: 100px;
+	left: 50%;
+	margin-left: -280px;
 }
 
 
@@ -344,19 +347,21 @@ a.navArrow.next::before{
 
 .infografia-1{
 	position: absolute;
-	top: 7470px;
+	top: 7650px;
 	left: 0;
 
 }
 .info-1-Header{
 	position: absolute;
-	top: 7150px;
-	left: 35px;
+	top: 7370px;
+	left: 15px;
+	width: 90%;
 }
 .info-1-Footer{
 	position: absolute;
-	top: 8080px;
-	left: 35px;
+	top: 8180px;
+	left: 15px;
+	width: 90%;
 }
 
 .infografia-2{
@@ -367,8 +372,9 @@ a.navArrow.next::before{
 
 .arrows{
 	position: absolute;
-	top: 12050px;
-	left:200px;
+	top: 12080px;
+	left:50%;
+	margin-left: -25%;
 }
 .info2Content{
 	position: absolute;
@@ -377,8 +383,14 @@ a.navArrow.next::before{
 }
 .info2Content img.brazil{
 	position: absolute;
+	width: 90%;
 	top: 110px;
-	left: 70px;
+	left: 10px;
+}
+.info2Content img.info2Head{
+	position: relative;
+	width: 90%;
+	left: 10px;
 }
 
 
@@ -416,7 +428,7 @@ position: absolute;
 
 .fifth-Txt{
 	position: absolute;
-	top: 9800px;
+	top: 9900px;
 }
 .sixth-Txt{
 	position: absolute;
@@ -441,7 +453,8 @@ position: absolute;
 
 .tit_videos_seas {
 font-size: 22px;
-    left: 201px;
+    left: 50%;
+    margin-left: -25%;
     position: absolute;
     top: 14920px;}
 	

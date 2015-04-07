@@ -86,7 +86,7 @@ h3 {
 .first-picture{
 	position: absolute;
 	right: 0;
-	top: 4300px;
+	top: 4350px;
 }
 
 
@@ -98,7 +98,7 @@ h3 {
 .first-pleca{
 	position: absolute;
 	left: 0;
-	top: 1700px;
+	top: 1800px;
 }
 .second-pleca{
 	position: absolute;
@@ -119,7 +119,7 @@ Questions
 	position: absolute;
 	left: 5%;
 	top: 1500px;
-	width:270px;
+	width:200px;
 	
 }
 
@@ -133,7 +133,7 @@ Questions
 	position: absolute;
 	left: 5%;
 	top: 2500px;
-	width:270px;
+	width:200px;
 }
 .second-AnswerBox{
 	position: absolute;
@@ -145,7 +145,7 @@ Questions
 	position: absolute;
 	right: 5%;
 	top: 3500px;
-	width:270px;
+	width:200px;
 }
 
 .third-AnswerBox{
@@ -157,23 +157,23 @@ Questions
 	position: absolute;
 	left: 5%;
 	top: 4200px;
-	width:270px;
+	width:200px;
 }
 
 .fourth-AnswerBox{
 	position: absolute;
-	top: 4500px;
+	top: 4550px;
 }
 
 .fifth-QuestionBox {
 	position: absolute;
 	left: 5%;
 	top: 4650px;
-	width:270px;
+	width:200px;
 }
 .fifth-AnswerBox{
 	position: absolute;
-	top: 5050px;
+	top: 5150px;
 }
 
 
@@ -181,12 +181,12 @@ Questions
 	position: absolute;
 	left: 5%;
 	top: 6300px;
-	width:270px;
+	width:200px;
 }
 
 .sixth-AnswerBox{
 	position: absolute;
-	top: 7000px;
+	top: 6900px;
 }
 
 

@@ -72,22 +72,26 @@ h3 {
 
 .first-picture{
 	position: absolute;
-	right: 0;
+	left: 0;
+	width: 100%;
 	top: 1200px;
 }
 .second-picture{
-left: 0;
+	left: 0;
     position: absolute;
     top: 1700px;
+    width: 100%;
 }
 .third-picture{
 position: absolute;
-    right: 0;
+    left: 0;
+    width: 100%;
     top: 2700px;
 }
 .fourth-picture{
 	position: absolute;
-	right: 0;
+	left: 0;
+	width: 100%;
 	top: 3550px;
 }
 
@@ -171,7 +175,7 @@ TxtCols
 }
 .second-Txt{
 	position: absolute;
-	top: 3650px;
+	top: 3550px;
 }
 .third-Txt{
 	position: absolute;
@@ -179,7 +183,7 @@ TxtCols
 }
 .fourth-Txt{
 	position: absolute;
-	top: 5380px;
+	top: 5280px;
 }
 .fifth-Txt{
 	position: absolute;

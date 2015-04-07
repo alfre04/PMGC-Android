@@ -15,10 +15,10 @@
 	color:rgba(64,53,48,1);
 	font-family: 'petrobras_sanslight';
 	position: absolute;
-	font-size: 5.6em;
+	font-size: 3.6em;
 	top: 25%;
 	left:10%; 
-	width: 90%;
+	width: 60%;
 	text-shadow: 0px 1px 0px #000;
 	text-transform: uppercase;
 }
@@ -149,7 +149,7 @@ h3 {
 .third-picture{
 	position: absolute;
 	right: 0;
-	top: 7550px;
+	top: 7570px;
 }
 .fourth-picture{
 	position: absolute;
@@ -159,7 +159,7 @@ h3 {
 .first-pleca{
 	position: absolute;
 	left: 0;
-	top: 2850px;
+	top: 2900px;
 }
 .second-pleca{
 	position: absolute;
@@ -169,7 +169,7 @@ h3 {
 .third-pleca{
 	position: absolute;
 	left: 0;
-	top: 8500px;
+	top: 8520px;
 }
 .fourth-pleca{
 	position: absolute;
@@ -228,7 +228,7 @@ Questions
 }
 .second-AnswerBox{
 	position: absolute;
-	top: 4400px;
+	top: 4250px;
 }
 
 
@@ -240,7 +240,7 @@ Questions
 
 .third-AnswerBox{
 	position: absolute;
-	top: 8800px;
+	top: 8700px;
 }
 
 
@@ -277,7 +277,7 @@ Questions
 
 #pulsodialogues {
 	position:absolute;
-    left: 256px;
+    left: 210px;
     top: 48px;
 
 }
@@ -295,6 +295,9 @@ left: 18px;
     top: 12px;
 	
 
+}
+.fotoCabezasFondo{
+	width: 100%;
 }
 
 .txtvervideo {
