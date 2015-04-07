@@ -75,29 +75,34 @@ h3 {
 .first-picture {
     left: 0;
     position: absolute;
-    top: 2750px;
+    top: 2850px;
+    width: 100%;
 }
 
 .second-picture{
 	position: absolute;
 	left: 0;
-	top: 5100px;
+	top: 5140px;
+	width: 100%;
 }
 .third-picture{
 	position: absolute;
-	right: 0px;
-	top: 4500px;
+	left: 0px;
+	top: 4540px;
+	width: 100%;
 }
 .fourth-picture{
 	position: absolute;
-	right: 0;
-	top: 7100px;
+	left: 0;
+	top: 7140px;
+	width: 100%;
 }
 
 .five-picture{
 	position: absolute;
-	right: 0;
-	top: 7700px;
+	left: 0;
+	top: 7740px;
+	width: 100%;
 }
 
 
@@ -199,12 +204,12 @@ TxtCols
 
 .toTop{
 	position: absolute;
-	top:12400px;
+	top:12500px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 8129px;
+	top: 8229px;
 	left: 0px;
 }

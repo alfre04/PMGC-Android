@@ -4,9 +4,10 @@
 	position: relative;
 	background-color: red;
 	height: 1024px;
-	width: 768px;
+	width: 100%;
 	background: url('../imgs/fondo-portada.jpg') no-repeat;
 	background-position: -0px 0px;
+	background-size: 100% auto;
 }
 .title h1 {
 	color:#008c4f;
@@ -138,6 +139,7 @@ h3 {
 	position: absolute;
 	top: 6556px;
 	left: 0px;
+	width: 100%;
 }
 
 .pleca3{

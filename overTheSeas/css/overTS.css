@@ -7,9 +7,10 @@
 	position: relative;
 	background-color: transparent;
 	height: 1024px;
-	width: 768px;
+	width: 100%;
 	background: url('../imgs/fondo-portada.jpg') no-repeat;
 	background-position: -0px 0px;
+	background-size: 100% auto;
 }
 .title h1 {
 	color:#005b94;
@@ -240,16 +241,19 @@ a.navArrow.next::before{
 	position: absolute;
 	right: 0;
 	top: 1750px;
+	width: 98%
 }
 .second-picture{
 	position: absolute;
 	right: 0;
-	top: 3050px;
+	top: 3100px;
+	width: 98%;
 }
 .third-picture{
 	position: absolute;
 	left: 0;
-	top: 4950px;
+	top: 4850px;
+	width: 98%;
 }
 .fourth-picture{
 	position: absolute;

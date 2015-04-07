@@ -7,9 +7,10 @@
 	position: relative;
 	background-color: transparent;
 	height: 1024px;
-	width: 768px;
+	width: 100%;
 	background: url('../imgs/foto-portada.jpg') no-repeat;
 	background-position: -0px 0px;
+	background-size: 100% auto;
 }
 .title h1 {
 	color:#fff;
@@ -99,7 +100,7 @@ h3 {
 }
 .sixth-picture{
 	position: absolute;
-	right: 0;
+	left: 0;
 	top: 3100px;
 }
 .seventh-picture{

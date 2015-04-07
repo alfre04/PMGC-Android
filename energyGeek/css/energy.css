@@ -7,9 +7,10 @@
 	position: relative;
 	background-color: transparent;
 	height: 1024px;
-	width: 768px;
+	width: 100%;
 	background: url('../imgs/energyTitleBack.jpg') no-repeat;
 	background-position: -0px 0px;
+	background-size: 100% auto;
 }
 .title h1 {
 	color:#FFF;
@@ -82,23 +83,27 @@ h3 {
 
 .first-picture{
 	position: absolute;
-	right: 0;
-	top: 1650px;
+	left: 0;
+	top: 1700px;
+	width: 100%;
 }
 .second-picture{
 	position: absolute;
-	right: 0;
-	top: 2800px;
+	left: 0;
+	top: 2850px;
+	width: 100%;
 }
 .third-picture{
 	position: absolute;
 	left: 0;
-	top: 3400px;
+	top: 3450px;
+	width: 100%;
 }
 .fourth-picture{
 	position: absolute;
-	right: 0;
-	top: 6500px;
+	left: 0;
+	top: 6450px;
+	width: 100%;
 }
 
 
@@ -119,7 +124,7 @@ h3 {
 .third-pleca{
 	position: absolute;
 	left: 0;
-	top: 6800px;
+	top: 6750px;
 }
 
 
@@ -144,7 +149,7 @@ h3 {
 }
 .foto4-Caption{
 	position: absolute;
-	top: 7950px;
+	top: 7850px;
 	left: 0px;
 }
 

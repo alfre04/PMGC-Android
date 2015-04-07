@@ -111,8 +111,8 @@ h3 {
 }
 .second-picture {
 	position: absolute;
-	top: 0;
-	right: 0;
+	left: 0;
+	width: 100%;
 }
 
 
@@ -164,7 +164,7 @@ TxtCols
 	left: 50%;
 	margin-left: -100px;
 	position: absolute;
-	top: 6760px;
+	top: 6880px;
 }
 .footer{
 	left: 0;

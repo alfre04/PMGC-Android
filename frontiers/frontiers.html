@@ -54,8 +54,8 @@
 					return false;
 				});
 				
-				 var x = 0;  
-            var y = 0; 
+			var x = 0;  
+            var y = -100; 
 			var sentido = "negativo"; 
             //cache a reference to the banner  
             var banner = $(".title");  
@@ -68,7 +68,7 @@
                 banner.css("backgroundPosition", x + 'px' + ' ' + y + 'px');  
                 //y--;  
                 if(sentido=="negativo"){
-				if(x>=-768){	
+				if( x >=- 768 ){	
 				x = x-2;
 				} else {
 					sentido = "positivo";

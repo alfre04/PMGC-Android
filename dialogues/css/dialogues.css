@@ -7,9 +7,10 @@
 	position: relative;
 	background-color: red;
 	height: 1024px;
-	width: 768px;
+	width: 100%;
 	background: url('../imgs/dialoguesTitleBack.jpg') no-repeat;
 	background-position: -0px 0px;
+	background-size: 100% auto;
 }
 .title h1 {
 	color:rgba(64,53,48,1);
@@ -30,7 +31,7 @@
 .lineasSubHead p{
 	font-family: 'petrobras_sansitalic';
 	text-shadow:none;
-	font-size: 1.15em;
+	font-size: 1em;
 	color: black;
 	padding: 1px 20px 1px 50px;
 	background-color: #FFCE38;
@@ -140,21 +141,25 @@ h3 {
 	position: absolute;
 	right: 0;
 	top: 1300px;
+	width: 100%;
 }
 .second-picture{
 	position: absolute;
 	right: 0;
 	top: 3450px;
+	width: 100%;
 }
 .third-picture{
 	position: absolute;
 	right: 0;
-	top: 7570px;
+	top: 7630px;
+	width: 100%;
 }
 .fourth-picture{
 	position: absolute;
 	right: 0;
-	top: 8100px;
+	top: 8140px;
+	width: 100%;
 }
 .first-pleca{
 	position: absolute;
@@ -186,7 +191,8 @@ h3 {
 .first-speaker-picture{
 	position: absolute;
 	left: 0;
-	top:5300px;
+	top:5340px;
+	width: 100%;
 }
 
 .first-speaker-pleca{
@@ -198,7 +204,8 @@ h3 {
 .second-speaker-picture{
 	position: absolute;
 	right: 0;
-	top:5840px;
+	top:5800px;
+	width: 100%;
 }
 .second-speaker-pleca{
 	position: absolute;
