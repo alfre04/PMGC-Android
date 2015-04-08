@@ -1,0 +1,239 @@
+.accentColorInside{
+	background-color: #F8C73F;
+	color: #00814C;
+}
+
+
+.title {
+	z-index:101;
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 100%;
+/*	background: url('../imgs/circulos_home.jpg') no-repeat; */
+	background-position: -0px 0px;
+	background-size: 100% auto;
+}
+.title h1 {
+	color:#005b94;
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 13%;
+	left:10%; 
+	width: 90%;
+	
+
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.lineasSubHead p{
+	font-family: 'petrobras_sansitalic';
+	text-shadow:none;
+	font-size: 1.15em;
+	color: black;
+	padding: 1px 20px 1px 50px;
+	background-color: #FFCE38;
+	margin-top: 4px;
+	width: auto;
+}
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #00814A;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+.txtBy{
+	color: #005b94;
+	text-shadow:none;
+	font-size: 1em;
+}
+.by {
+	border-bottom: 3px solid #F4B827;
+	height: 30px;
+	display: inline-block;
+}
+.botLine {
+	border-bottom: 7px solid #F4B827;
+	height: 110px;
+	width: 60px;
+	display: inline-block;
+}
+
+
+.lineasazules p {
+    background-color: #6d92a8;
+    color: white;
+    font-family: "petrobras_sansitalic";
+    font-size: 1.2em;
+    margin-top: 4px;
+    padding: 1px 20px 1px 50px;
+    text-shadow: none;
+    width: auto;
+	float:left;
+	clear:both;
+}
+
+
+
+/* ------------------------------------------- positions*/
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.lineasazules {
+    left: 0;
+    position: absolute;
+    top: 800px;
+    width: auto;
+}
+.txtBy{
+	position: absolute;
+	top: 360px;
+	left: 10%;
+}
+.first-Txt{
+	position: absolute;
+	top: 1100px;
+}
+.second-Txt{
+	position: absolute;
+	top: 1390px;
+}
+
+.second-picture{
+	position: absolute;
+	top: 2650px;
+	width: 100%;
+}
+.toTop{
+	position: absolute;
+	top: 4300px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 3080px;
+	left: 0px;
+}
+
+
+
+/* ANIMACION CIRCULO*/
+
+.carruselcirculo {
+	position:relative;
+	z-index:100;
+	top:0;
+	left:0;
+	height: 1024px;
+	}
+
+.divi {
+    border-radius:50%;
+  /*  border:2px solid #000; */
+    position:fixed;
+}
+#center {
+    
+    position: absolute;
+    top: 30%;
+    width: 100%;    
+}
+#center img {
+
+	width: 100%; 
+	}
+
+
+
+
+#sat0 {
+	left: 41%;
+    position: absolute;
+    top: 25%;
+	
+	}
+	
+	
+#sat1 {
+	left: 78%;
+    position: absolute;
+    top: 34%;
+	
+	}
+	
+#sat2 {
+	  left: 85%;
+    position: absolute;
+    top: 52%;	
+	
+	}
+	
+#sat3 {
+   left: 78%;
+    position: absolute;
+    top: 75%;
+	
+	}
+	
+#sat4 {
+left: 41%;
+    position: absolute;
+    top: 80%;
+	
+	}
+	
+#sat5 {
+	   left: 9%;
+    position: absolute;
+    top: 74%;
+	
+	}
+	
+#sat6 {
+ left: -1%;
+    position: absolute;
+    top: 52%;
+	
+	}
+	
+#sat7 {
+	   left: 9%;
+    position: absolute;
+    top: 34%;
+	
+	}
+	
+
+	
+	
+
+/*
+
+#sat1, #sat3, #sat5, #sat7 {
+    width:90px;
+    height:90px;
+    
+}
+
+#sat0, #sat4 {
+    width:118px;
+    height:118px;
+    
+}
+
+#sat2, #sat6 {
+    width:134px;
+    height:134px;
+    
+}
+*/

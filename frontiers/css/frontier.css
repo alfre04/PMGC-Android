@@ -1,0 +1,215 @@
+.accentColorInside{
+	background-color: #F8C73F;
+	color: #00814C;
+}
+
+.title {
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 768px;
+	background: url('../imgs/fondo-portada.jpg') no-repeat;
+	background-position: -0px 0px;
+}
+.title h1 {
+	color:#fff;
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 55%;
+	left:10%; 
+	width: 90%;
+	text-shadow: 0px 1px 0px #000;
+	text-transform: uppercase;
+	line-height:1em;
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.lineasSubHead p{
+	font-family: 'petrobras_sansitalic';
+	text-shadow:none;
+	font-size: 1.15em;
+	color:#fff;
+	padding: 1px 20px 1px 50px;
+	background-color: #00a9ab;
+	margin-top: 4px;
+	width: auto;
+}
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #00814A;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+
+
+
+
+/* ------------------------------------------- positions*/
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.lineasSubHead {
+	position: absolute;
+	top:800px;
+}
+
+.intro-Article{
+	position: absolute;
+	top: 1000px;
+}
+
+
+/* |********|
+   |Pictures|
+   |********| */
+
+
+.first-picture {
+    left: 0;
+    position: absolute;
+    top: 2850px;
+    width: 100%;
+}
+
+.second-picture{
+	position: absolute;
+	left: 0;
+	top: 5140px;
+	width: 100%;
+}
+.third-picture{
+	position: absolute;
+	left: 0px;
+	top: 4540px;
+	width: 100%;
+}
+.fourth-picture{
+	position: absolute;
+	left: 0;
+	top: 7140px;
+	width: 100%;
+}
+
+.five-picture{
+	position: absolute;
+	left: 0;
+	top: 7740px;
+	width: 100%;
+}
+
+
+/* |********|
+   | Plecas |
+   |********| */
+
+.first-pleca{
+	position: absolute;
+	left: 0;
+	top: 2650px;
+}
+.second-pleca{
+	position: absolute;
+	right: 0;
+	top: 6540px;
+}
+.third-pleca{
+	position: absolute;
+	right: 0;
+	top: 9600px;
+}
+
+
+/* |********|
+   |Captions|
+   |********| */
+
+.foto1-Caption{
+	position: absolute;
+	top: 3670px;
+	left: 0px;
+	padding-right:50px;
+}
+.foto2-Caption{
+	position: absolute;
+	top: 5700px;
+	left: 0px;
+	padding-right:50px;
+}
+.foto3-Caption{
+	position: absolute;
+	top: 6400px;
+	left: 0px;
+	padding-right:50px;
+}
+.foto4-Caption{
+	position: absolute;
+	top: 8740px;
+	left: 0px;
+	padding-right:50px;
+}
+
+.foto5-Caption {
+		position: absolute;
+	top: 9470px;
+	left: 0px;
+	padding-right:50px;}
+
+
+/********
+TxtCols
+*********/
+.first-Txt{
+	position: absolute;
+	top: 1400px;
+}
+.second-Txt{
+	position: absolute;
+	top: 2050px;
+}
+.third-Txt{
+	position: absolute;
+	top: 4300px;
+}
+.fourth-Txt{
+	position: absolute;
+	top: 7950px;
+}
+.fifth-Txt{
+	position: absolute;
+	top: 11436px;
+}
+
+.marquee{
+	position: absolute;
+	top: 5500px;
+	left: 20px;
+}
+
+
+.galleryBtn {
+	visibility: hidden;
+	position: absolute;
+	top: 7900px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.toTop{
+	position: absolute;
+	top:12500px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 8229px;
+	left: 0px;
+}

@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+	<title>Over The Seas || Petrobras Magazine Global Connections</title>
+  	<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/overTS.css" />
+	<link rel="stylesheet" type="text/css" href="css/overTS-LayerHeights.css" />
+	<link rel="stylesheet" type="text/css" href="../css/animations.css" />
+
+	<!-- Menu ( Css - Js )-->
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+	
+    
+	<script src="../js/jqueryPMGC.min.js"></script>
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
+  
+              <!-- cordova inAppBrowser -->
+        <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            
+        </script>
+
+        
+	<!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the Colorbox event to elements
+			$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+
+
+</head>
+
+<body>
+  	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller">
+
+						<section>
+
+						<div class="layer background" data-stellar-ratio="1">
+							
+							<div class="title" >
+								<h1><span class="Big">Cure</span> that comes from <span class="Big">the sea</span></h1>
+							</div>
+
+							<div class="footer">
+								<img src="imgs/footerOvertheseas.png">
+							</div>
+									
+						</div> <!-- End of BackGround -->
+
+								
+						<div class="layer layer1" data-stellar-ratio="1.2">
+							
+
+							
+
+							<img class="first-picture" src="imgs/foto-1.png">
+							<img class="second-picture" src="imgs/foto-2.png">
+							<img class="fourth-picture" src="imgs/foto-4.png">
+                            <div class="fourth-Txt-coral">
+								<article class="txtCol right-align txtColAndroidFix right-alignAndroidFix" style="width:60%;">
+
+<h3>A close look at Brazilian coral</h3>
+<p>
+Coral Vivo is part of the “Biomar” network of marine biodiversity projects, and it is sponsored by Petrobras through the Petrobras Social and Environmental Program. The project works to conserve coral reefs and coral environments in Brazil, through knowledge generation, the spreading of information, environmental education, awareness raising and coordination with society, and collaboration toward the development and execution of public policies.</p>
+<p>
+Created by biologists Clovis Castro and Débora Pires, the Coral Vivo project was established at the National Museum at the Federal University of Rio de Janeiro, where they set out to study the processes of Brazilian coral reef structuring, formation and renewal. After the research had made some progress, in 2003 Coral Vivo became an official project and obtained financial support from the National Environmental Fund (FNMA). In 2006, Petrobras started to sponsor it as well.</p>
+<p>
+In its first two years, Coral Vivo established historic milestones in the biological and ecological knowledge of corals endemic to Brazil, such as the determination of specific periods for the annual spawning of species and the obtaining of thousands of coral offspring resulting from in vitro fertilization.</p>
+<p>
+In addition to on-site research, Coral Vivo also has a network of tanks to predict the reaction of corals to climate change in the sea. The “meso-cosmos,” as it is called, is the first system in Brazil to have a permanent link with the natural environment for studies related to marine variations, and the third in the world. The other meso-cosmoses are located in Australia and Mexico.<p>
+<p>
+The tanks are filled with natural sea water and then subjected to simulations of temperature and acidity variations to measure possible physiological alterations in the beings that live in the South Atlantic coral reefs. Studies are taking place in 16 tanks, which function as nurseries and undergo the researched alterations.</p>
+								</article>
+							</div>
+                            
+							<img class="fifth-picture" src="imgs/foto-5.png">
+							<img class="sixth-picture" src="imgs/foto-6.png">
+							<img class="seventh-picture" src="imgs/foto-7.png">
+                            
+                            
+							
+							
+
+							
+
+						</div><!-- fin de fotos -->
+
+
+						<div class="layer layer2" data-stellar-ratio="1.4">
+
+
+
+							<img class="first-pleca" src="imgs/pleca1.png">
+
+							<img class="second-pleca" src="imgs/pleca2.png">
+
+							<div class="info2Content">
+								<img class="info2Head"src="images/info-2-Header.png">
+								<img class="brazil" src="images/Brazil.png">
+
+							</div>
+
+							<div class="infografia-2">
+								
+								<section class="tab first visible" data-tab="first">
+	                                <img class="tabIMG" src="images/step1.png">
+	                            </section>
+	                            <section class="tab second " data-tab="second">
+	                                <img class="tabIMG" src="images/step2.png">
+	                            </section>
+	                            <section class="tab third " data-tab="third">
+	                                <img  class="tabIMG" src="images/step3.png">
+	                            </section>
+	                            <section class="tab fourth " data-tab="fourth">
+	                                <img class="tabIMG" src="images/step4.png">
+	                            </section>
+	                            <section class="tab fifth " data-tab="fifth">
+	                                <img class="tabIMG" src="images/step5.png">
+	                            </section>
+	                            <section class="tab sixth " data-tab="sixth">
+	                                <img class="tabIMG" src="images/step6.png">
+	                            </section>
+	                            <section class="tab seventh " data-tab="seventh">
+	                                <img class="tabIMG" src="images/step7.png">
+	                            </section>
+
+
+							</div>
+
+							
+
+						</div><!-- fin de infographics -->
+
+						<div class="layer layer3" data-stellar-ratio="1.6">
+									    
+							<div class="sectionHeader"><img src="imgs/line_portada.png"></div>
+							<div class="lineasSubHead">
+							    <p style="max-width:540px;">Research into Brazilian coral reefs identifies substance</p>
+							    <p style="max-width:570px;">in elephant ear coral able to fight back against KPC,</p>
+							    <p style="max-width:620px;">a super-bacterium that causes hospital-acquired infections</p>
+							</div>
+
+
+							<div class="first-Txt">
+								<article class="txtCol left-align txtColAndroidFix">
+									<p><span style="color:#005b94 !important;" class="dropCaps">O</span>f the 600,000 coral species found in the world, 41 live off the coast of Brazil. Fixed and vulnerable beings, corals function as sentinels of the sea, protecting the coast from waves and erosion, and hosting the second richest biodiversity on the planet, behind only tropical forests. In this surprising marine world, corals fight for survival in a competition for food, space and shelter, in a kind of rich chemical warfare featuring the release of defensive proteins on the bottom of the ocean.</p>
+								    <p>This production of potent chemical substances that help to determine which species are victorious and which are left behind on the path of evolution has over the last 10 years become one of the targets of scientific research to find a cure for diseases arising from bacteria, viruses and fungi. Brazilian coral reefs, which extend for 3,000 km along the coast, concentrated off northeast Brazil, may hold the cure for the hospital-acquired infections that afflict patients with pneumonia and gastrointestinal diseases caused by the super-bacterium <span class="italics">Klebsiella pneumoniae carbapenemase</span> (KPC).</p>
+								</article>
+							</div>
+							<div class="second-Txt">
+								<article class="txtCol left-align DoubleSize">
+									<p>Research led by the biochemistry area of the Catholic University of Brasília (UCB) in partnership with biologists from the Coral Vivo (“Living Coral”) project is exploring the use of defensive substances produced by Brazilian coral reef species to cure diseases. Elephant ear coral (scientific name Phyllogorgia dilatata), an endangered species found only in South Atlantic reefs, has a biomolecule in its defensive system able to counterattack KPC.</p>
+								    <p>Although little research has so far been conducted in the marine environment related to the production of pharmaceuticals in Brazil, the UCB study began in 2009 with the collection of coral samples in Arraial d’Ajuda, on the southern coast of the state of Bahia. Besides elephant ear, materials were collected from the Palythoa caribaeorum, Plexaurella grandiflora, Carijoa riisei, Muriceopsis sulphurea and Neospongodes atlântica corals – all of which have powerful self-defense properties.</p>
+								    <p>“The corals were selected in line with their characteristics, given that they survive in the highly competitive marine environment. Our first screening of these species was determined by tough chemical defense mechanisms,” explains Clóvis Castro, coordinator of the Coral Vivo project and an investigator of marine life off the Brazilian coast.</p>
+								</article>
+							</div>
+							<div class="third-Txt">
+								<article class="txtCol left-align" style="width:65%;">
+									<h3>THE INVESTIGATION</h3>
+									<p>The next stage of the research, led by biologists Simoni Campos Dias and Loiane Alves de Lima, took place in the UCB Genomic Sciences and Biotechnology Postgraduate Laboratory, in partnership with the National Museum of the Federal University of Rio de Janeiro (UFRJ) – part of the Coral Vivo Research Network, sponsored by the Petrobras Social and Environmental Program and Arraial d’Ajuda Eco Parque. </p>
+								    <p>The collected pieces of coral were ground down and put through a purification process to isolate the defensive protein of each species. After this, in vitro testing took place with these biomolecules in contact with seven bacteria available in the university laboratory: <span class="italics">S. aureus, Streptococcus pyogenes, K. pneumoniae, E. coli, P. mirabilis, Shigella flexineri and Salmonella typhimurium.</span> After 12 hours of contact, the elephant ear coral’s defensive substance had wiped out the KPC population. “In the very first tests we saw that the gorgonian substance had greater potential to fight KPC than the other corals. This protein may be a promising candidate for the creation of a new antibiotic to act against resistant bacteria,” says Loiane.</p>
+                                    <p> This research provided the basis for Loiane’s master’s thesis, “Identification of a Novel Antimicrobial Peptide from Brazilian Coast Coral Phyllogorgia dilatat,” published in scientific journal “Protein & Peptide Letters”, part of Bentham Science, a leading publisher in the field of global medicinal chemistry. According to biologist Simoni Campos, who orientated the study, there are reports of investigations into molecules extracted from marine animals such as corals and sponges to combat other types of bacteria elsewhere in the world, but there have not been any other investigations about KPC.</p>
+								</article>
+							</div>
+
+							<img class="third-picture" src="imgs/foto-3.png">
+
+
+	
+                            
+                            
+
+                            
+                            
+							
+							<img class="info-1-Header" src="imgs/infohead-1.png">
+							<div class="infografia-1">
+								
+								
+								<a class="info-1-toggle" href=""><img src="images/info-1/tap2.png"></a>
+								<img class="fondoBtnInfo-1" src="images/info-1/cuerpo.png">
+								
+								<div class="info-1-Animation">
+									<img class="aparece-1" src="images/info-1/cuerpo.png">
+									<img class="aparece-2" src="images/info-1/bacteria-3.png">
+									<img class="aparece-3" src="images/info-1/text-1.svg">
+									<img class="aparece-4" src="images/info-1/curve-1.svg">
+									<img class="aparece-5" src="images/info-1/bacteria-2.svg">
+									<img class="aparece-6" src="images/info-1/text-2.svg">
+									<img class="aparece-7" src="images/info-1/curve-2.svg">
+									<img class="aparece-8" src="images/info-1/bacteria-3.svg">
+									<img class="aparece-9" src="images/info-1/text-3.svg">
+									<img class="aparece-10" src="images/info-1/medications.jpg">
+									<img class="aparece-11" src="images/info-1/curve-3.svg">
+									<img class="aparece-12" src="images/info-1/lungs.svg">
+									<img class="aparece-13" src="images/info-1/text-4.svg">
+								</div>
+							</div>
+							<img class="info-1-Footer" src="imgs/infoFooter-1.png">
+
+							<div class="fifth-Txt">
+								<article class="txtCol right-align right-alignAndroidFix txtColAndroidFix" style="">
+									<p>“This is the first investigatory study of KPC. Furthermore, we have found that substances in elephant ear coral can also control the growth of Staphylococcus aureus, which causes skin diseases like impetigo, and Shigella flexneri, which generates dysentery, and which are also believed to contribute to infections acquired in the hospital environment,” explains Simoni.</p>
+									<p>
+									The next step in the research is to conclude whether the defensive protein comes from the coral itself or from a bacterium that lives in association with it. “Symbiosis means a mutually beneficial relationship in which two or more different organisms benefit from their association. For this reason, we cannot yet determine whether the substance really comes from the coral itself or from an organism that lives in association with it,” explains the biologist.</p>
+									<p>
+									A new selection of gorgonians to complete the sequencing of defensive protein is planned in the near future, given that just half of the sequence was identified in the first phase. “We will also undertake new tests with viruses and fungi to better evaluate this substance’s potential to combat them. As well as elephant ear coral, we will also collect some other types of corals, urchins and sponges,” says Loiane.
+									</p>
+								</article>
+							</div>
+
+
+							
+							<div class="arrows">
+		                            <a href="" class="navArrow prev" data-direction="prev"></a>
+		                            <a href="" class="navArrow next" data-direction="next"></a>
+	                    	</div>
+							
+
+							<div class="sixth-Txt">
+								<article class="txtCol right-align">
+								<h3>A NEW MEDICATION</h3>
+									<p>There is still a long path ahead to produce a remedy for KPC, given that these biomolecules are found in extremely small quantities in coral, limiting the speed of research. Loiane says that the study can only be applied to the human organism after the protein has been completely sequenced (a method that makes it possible to discover the structures and functions of proteins in living organisms in order to understand cellular processes), isolated and then cloned. “After time-consuming processing of the discovered drug, the compound will be cloned to make it possible to produce the active ingredient on a large scale. The medication can then be manufactured,” says Simoni.</p>
+									<p>
+									“This entire process may take around 10 years because further studies, research and testing in the human organism will be needed, as well as approval from the authorities,” she concludes.
+									</p>
+								</article>
+							</div>
+                            
+                            
+                            <div class="r100-Txt">
+								<article class="txtCol right-align" style="width:60%;">
+                                
+
+<h3>R$100 note</h3>
+     <p>                       
+Elephant ear coral (Phyllogorgia dilatata) is shown on the current R$100 note, the largest denomination note in Brazil. The Coral Vivo project’s coordinators, Clovis Castro and Débora Pires, recommended this type of coral and other marine species shown on the note to the <a class="link ui-link" style="color:#00b3b0 !important; text-decoration:none; " href="#" onclick="window.open('http://www.bcb.gov.br/novasnotas/nota-100-reais.html','_system');">Central Bank</a> and Mint. The new design is part of the second family of real notes, which started to be updated in 2010 and feature endemic Brazilian species on them.
+</p>
+</article>
+</div>
+
+
+                            
+                            <div class="tit_videos_seas">
+                            <h4>Learn more about the Brazilian reefs<br/>
+                            <div style="font-size:18px; text-align:center;">(Coral Vivo videos in Portuguese)</div></h4>
+							</div>
+							<div class="video-1">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/YJwESgeDBis?rel=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+									
+							<div class="video-2">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/zpsL1rleVvY?rel=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							
+
+						<!-- 	<div class="galleryBtn">
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Steve_Wozniak___Steve_Jobs_Office.jpg" title="Steve Wozniak and Steve Jobs, founders of Apple">Photo Gallery</a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/DSC1964OK.jpg" title="Coppe LAMCE Engineering Computational Methods Laboratory, building at the UFRJ Technology Park"></a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Intel78-chip.jpg" title="Chip created by Intel in 1978"></a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Early-Keyboard.jpg" title="One of the first computer keyboards"></a>
+								<a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Fairchild8-Traitorous-8.jpg" title="The “Traitorous Eight,” the group of eight engineers who founded Fairchild Semiconductor, a company that produced the first commercially available integrated circuit"></a>
+							</div> -->
+							
+							<div class="toTop">
+								<a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a>
+							</div>
+									
+						</div><!-- / End textos -->
+								
+								
+						</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+        <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+			<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div><!-- / End Panel -->
+
+            
+    </div><!-- / End Page -->
+
+	</div>
+	<script src="../js/pmgc-FrameWork.min.js"></script>
+	<script src="../js/tabSlider.js"></script>
+
+	<!-- Animation Triggers -->
+	 <script>
+
+		$(document).ready(function() {
+		        
+		    $('.info-1-toggle').click(function(){
+		        
+		        $('.info-1-Animation').css('display','block');
+		        $('.fondoBtnInfo-1').css('display','none');
+		        $(this).css("visibility","hidden");
+
+		    });
+		});  
+
+    </script>
+    
+
+
+</body>
+
+</html>

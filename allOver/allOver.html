@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+	<title>AllOver || Petrobras Magazine Global Connections</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/allOver.css" />
+	<link rel="stylesheet" type="text/css" href="css/allOver-LayerHeights.css" />
+
+	<!-- Menu ( Css - Js )-->
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+
+    <script src="../js/jqueryPMGC.min.js"></script>
+  
+	
+
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
+  
+	<!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+	</script>
+
+</head>
+
+<body>
+  	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller">
+
+						<section>
+
+
+						<div class="layer background" data-stellar-ratio="1">
+
+							<div class="title" ><h1 ><span class="Big">The next wave</span><br /> of innovation</h1></div>
+                            
+							
+							
+                            <div class="footer">
+                                <img src="imgs/footerAllover.png">
+                            </div>
+									
+						</div> <!-- End of BackGround -->
+
+								
+						<div class="layer layer1" data-stellar-ratio="1.2">
+
+							
+							
+							<img class="forum" src="imgs/foto1.png">
+                            
+                            <img class="graficauno" src="imgs/grafica-1.png">
+                            <div class="graficados">
+                            	<div style="position:relative;">
+                                        <div id="number_exploration22">0</div>
+                                        <div id="number_exploration52">0</div>
+                                        <div id="number_exploration70">0</div>
+                                        <div id="number_exploration100">0</div>
+                          			    <img style="width:100%;" src="imgs/grafica-2.png">
+                            	</div>
+                            </div>
+							<div class="graficatres">
+                            	<div style="position:relative;">
+                                        <div id="number1">0</div>
+                                        <div id="number2">0</div>
+                                        <div id="number_weels">0</div>
+                                        <div id="number_platform">0</div>
+                                        <img style="width:100%;" src="imgs/grafica-3.png">
+                            	</div>
+							</div>
+                            
+                            <img class="fotofin" src="imgs/foto-fin.jpg"> 
+
+						</div><!-- fin de Layer 1 -->
+
+
+
+						<div class="layer layer2" data-stellar-ratio="1.4">
+
+							<div class="titfoto1">
+								<p>Opening session of Rio Oil & Gas, held in September in Rio de Janeiro,<br/> which generated expected business deals worth R$164 million<br/> over the following 12 months</p>
+							</div>
+
+							<img class="pleca1" src="imgs/pleca-1.png">
+							
+                            
+                            <img class="pleca3" src="imgs/pleca-3.png"> 
+
+						</div><!-- fin de Layer2 -->
+
+
+
+
+						<div class="layer layer3" data-stellar-ratio="1.6">
+									    
+							<div class="sectionHeader"><img src="imgs/allOverHeader.png"></div>
+							
+							<div class="intro-Article">
+							    <article class="txtCol left-align DoubleSize">
+								    <p><span class="inicial">E</span>xecutives discussed key issues for the oil and gas sector at the 21st edition of the World Petroleum Congress (WPC), the industry’s largest global event, held last June in Moscow. The congress, which takes place every three years, brings together ministers of state and company CEOs from more than 80 countries.</p>
+							    </article>
+							</div>
+
+							<div class="first-Txt">
+								<article class="txtCol right-align">
+			                        <h3>THE <div id="quinientos">0</div> BARREL CHALLENGE</h3>
+			                        <p>In 2014, Petrobras reached the milestone of 500,000 barrels of oil produced per day in the pre-salt layer. Today it is producing around 700,000 barrels per day in the province, which is composed of major accumulations of light oil with a high commercial value. In the pre-salt, the evolution of production is higher than that recorded in other similar areas in the world, as well as the average production per well.</p>
+			                        <p>
+			                        <h3>PETROBRAS’ GROWTH </h3>
+		                        	<p>The pre-salt production also demonstrates Petrobras’ evolution over the years. Time and number of wells needed to reach output of 500,000 barrels per day:
+		                          	</p>
+  								 </article>
+							</div>
+
+
+
+							<div class="pre-second-Txt">
+								<article class="txtCol right-align right-alignAndroidFix txtColAndroidFix">
+									<p>One of the highlights of this edition was the special session on “The next wave of upstream innovation,” which discussed recent and future technological innovations aimed at exploring and producing oil and gas in ever more challenging frontiers. Petrobras’ executive manager for the Libra area, Anelise Lara, participated in the debate and used Brazilian pre-salt as an example to talk about innovation in the upstream area. She emphasized that the technologies applied, from reservoir imaging to the design of production units, have been fundamental to the success of projects, helping to expand production tenfold over the last four years and to reduce costs.</p>
+				                    <p>Paulo Sergio Rodrigues Alonso, the advisor to Petrobras’ CEO on local content and executive coordinator of the National Oil and Gas Industry Mobilization Program (Prominp), presided over the forum “Ensuring the security of supply of equipment, materials and local content infrastructure”. Paulo Alonso gave an overview of local content policies across the world and stressed that such policies should be stimulating rather than protectionist.</p>
+                                    <p>The topics addressed by Petrobras representatives also included “The industry’s role in promoting development”, the benefits of using biofuels to cut greenhouse gas emissions, and women’s participation in the oil industry, among others.</p>
+									<p>Later in 2014, in September, the 17th edition of Rio Oil & Gas took place in Rio de Janeiro. Organized by the Brazilian Oil, Gas and Biofuels Institute (IBP), the conference achieved record volumes of business deals and attracted more than 47,000 visitors. As part of the event, 828 “Business Round” meetings with 176 suppliers and 37 anchor companies were held over the course of two days, generating expected business deals worth R$164 million over the following 12 months. The conference also attracted 3,800 participants from 31 countries.</p>
+    
+								</article>
+							</div>
+
+
+
+							<div class="second-Txt">
+								<article class="txtCol right-align">
+	
+                                    
+								</article>
+							</div>
+
+
+
+							<div class="fourth-Txt">
+								<article class="right-align txtCol" >
+									<h3>Petrobras expands its proven reserves</h3>
+									<p>On December 31, 2014, Petrobras’ proven reserves of oil, condensate and natural gas reached 16.612 billion barrels of oil equivalent (boe), up 0.3% from 16.565 billion boe in 2013, according to the ANP/SPE (National Oil, Natural Gas and Biofuels Agency / Society of Petroleum Engineers) criterion. After new additions, asset sales and returned concessions, the company’s proven reserves rose by a net 0.943 billion boe, more than offsetting 2014’s output of 0.896 billion boe. As a result, Petrobras had a reserve-replacement ratio of 105%. According to the US Securities and Exchange Commission (SEC) criterion, Petrobras’ proven reserves of oil, condensate and natural gas amounted to 13.131 billion boe, up 0.1% from 13.123 billion boe in 2013.</p>
+								</article>
+							</div>
+
+							<div class="fifth-Txt">
+								<article class="left-align txtCol" >
+									<h3>Debut in solar power generation</h3>
+									<p>Petrobras’ first project in the area of solar power generation, the Alto do Rodrigues Photovoltaic Power Plant, in the Brazilian state of Rio Grande do Norte, is now operating. The first tests were conducted in May and the plant came on line in August 2014. In all, R$21 million has been invested in the project, which has a total generating capacity of 1.1 MW and also encompasses the implementation of two laboratories in the Gas and Renewable Energy Technologies Center (CTGAS-ER) and six solar radiation measuring stations across the country, as well as a range of research on the subject. The project’s main objectives are to evaluate the impacts of a photovoltaic power plant on the electric network and calculate the real cost of the electricity generated. According to Petrobras consultant José Carlos Gameiro Miragaya, the company is increasingly qualified for this type of power generation. Another photovoltaic power plant has also been constructed in Rio Grande do Norte, using concentrated photovoltaic technology and it has been operating since late 2014 at CTGAS-ER, in Natal.</p>
+								</article>
+							</div>
+
+
+							
+							<div class="toTop">
+								<a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a>
+							</div>
+									
+						</div><!-- / End textos -->
+								
+								
+						</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+        <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+			<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div>
+        </div><!-- / End Panel -->
+
+
+
+            
+    </div><!-- / End Page -->
+
+
+	<script src="../js/pmgc-FrameWork.min.js"></script>
+
+    <script src="../js/jquery.inview.js"></script>
+	<script src="../js/jquery.animateNumbers.js"></script>
+    
+	<script>
+		$(function(){
+			
+				$('#number1').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number1").animateNumbers(149000, true, 3000);
+				  }							
+				});
+				
+				$('#number2').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number2").animateNumbers(713000, true, 3000);
+				  }							
+				});
+				
+				$('#number_weels').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_weels").animateNumbers(34, true, 3000);
+				  }							
+				});
+				
+				$('#number_platform').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_platform").animateNumbers(12, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration22').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration22").animateNumbers(22, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration52').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration52").animateNumbers(52, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration70').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration70").animateNumbers(70, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration100').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration100").animateNumbers(100, true, 3000);
+				  }							
+				});
+				
+				$('#quinientos').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#quinientos").animateNumbers(500000, true, 3000);
+				  }							
+				});
+		  
+	    });
+	</script>
+
+</body>
+
+</html>

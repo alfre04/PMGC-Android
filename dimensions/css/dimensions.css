@@ -1,0 +1,214 @@
+.accentColorInside{
+	background-color: #F8C73F;
+	color: #00814C;
+}
+
+
+.title {
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 100%;
+	background: url('../imgs/dimensionsTitleBack.jpg') no-repeat;
+	background-position: -0px 0px;
+	background-size: 100% auto;
+}
+.title h1 {
+	color:rgba(64,53,48,1);
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 29%;
+	left:10%; 
+	width: 90%;
+	text-shadow: 0px 1px 0px #000;
+	text-transform: uppercase;
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+.lineasSubHead p{
+	font-family: 'petrobras_sansitalic';
+	text-shadow:none;
+	font-size: 1.1em;
+	color: black;
+	padding: 1px 20px 1px 50px;
+	background-color: #aac22c;
+	margin-top: 4px;
+	width: auto;
+}
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #00814A;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+.nombrePregunta{
+	font-family: 'petrobras_sansbold_italic';
+	color: #00814C;
+}
+.nombre{
+	color: #00814C;
+	font-family: 'petrobras_sansbold';
+}
+
+
+
+/* ------------------------------------------- positions*/
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.lineasSubHead {
+	position: absolute;
+	top:700px;
+}
+
+.intro-Article{
+	position: absolute;
+	top: 1000px;
+}
+
+.first-Txt{
+	position: absolute;
+	top: 7550px;
+}
+
+/* |********|
+   |Pictures|
+   |********| */
+
+.first-picture{
+	position: absolute;
+	left: 0;
+	top: 4350px;
+	width: 100%;
+}
+
+
+
+/* |********|
+   | Plecas |
+   |********| */
+
+.first-pleca{
+	position: absolute;
+	left: 0;
+	top: 1800px;
+}
+.second-pleca{
+	position: absolute;
+	right: 0;
+	top: 2850px;
+}
+.third-pleca{
+	position: absolute;
+	left: 0;
+	top: 5650px;
+}
+
+/********
+Questions
+*********/
+
+.first-QuestionBox {
+	position: absolute;
+	left: 5%;
+	top: 1500px;
+	width:200px;
+	
+}
+
+.first-AnswerBox{
+	position: absolute;
+	top: 1300px;
+	
+}
+
+.second-QuestionBox {
+	position: absolute;
+	left: 5%;
+	top: 2500px;
+	width:200px;
+}
+.second-AnswerBox{
+	position: absolute;
+	top: 2430px;
+}
+
+
+.third-QuestionBox {
+	position: absolute;
+	right: 5%;
+	top: 3500px;
+	width:200px;
+}
+
+.third-AnswerBox{
+	position: absolute;
+	top: 3850px;
+}
+
+.fourth-QuestionBox {
+	position: absolute;
+	left: 5%;
+	top: 4200px;
+	width:200px;
+}
+
+.fourth-AnswerBox{
+	position: absolute;
+	top: 4550px;
+}
+
+.fifth-QuestionBox {
+	position: absolute;
+	left: 5%;
+	top: 4650px;
+	width:200px;
+}
+.fifth-AnswerBox{
+	position: absolute;
+	top: 5150px;
+}
+
+
+.sixth-QuestionBox {
+	position: absolute;
+	left: 5%;
+	top: 6300px;
+	width:200px;
+}
+
+.sixth-AnswerBox{
+	position: absolute;
+	top: 6900px;
+}
+
+
+
+/*.galleryBtn {
+	visibility: hidden;
+	position: absolute;
+	top: 7900px;
+	left: 50%;
+	margin-left: -100px;
+}*/
+
+.toTop{
+	position: absolute;
+	top:8100px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 5490px;
+	left: 0px;
+}

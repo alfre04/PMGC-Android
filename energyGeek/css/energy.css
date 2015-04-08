@@ -1,0 +1,213 @@
+.accentColorInside{
+	background-color: #F8C73F;
+	color: #00814C;
+}
+
+.title {
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 100%;
+	background: url('../imgs/energyTitleBack.jpg') no-repeat;
+	background-position: -0px 0px;
+	background-size: 100% auto;
+}
+.title h1 {
+	color:#FFF;
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 29%;
+	left:10%; 
+	width: 90%;
+	text-shadow: 0px 1px 0px #000;
+	text-transform: uppercase;
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.lineasSubHead p{
+	font-family: 'petrobras_sansitalic';
+	text-shadow:none;
+	font-size: 1.15em;
+	color: black;
+	padding: 1px 20px 1px 50px;
+	background-color: #FFCE38;
+	margin-top: 4px;
+	width: auto;
+	float:left;
+	clear:both;
+}
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #6d92a8;
+	font-size: 2.5em;
+	text-align: left;
+}
+.marquee-Arise h3{font-size: 1.8em;}
+.marquee-Arise{
+	height: auto;
+	width: 90%;
+	padding: 20px;
+	text-shadow: none;
+	border: 2px solid #FFC801;
+	background-color: white;
+}
+
+
+
+
+/* ------------------------------------------- positions*/
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.lineasSubHead {
+	position: absolute;
+	top:700px;
+}
+
+.intro-Article{
+	position: absolute;
+	top: 1000px;
+}
+
+
+/* |********|
+   |Pictures|
+   |********| */
+
+.first-picture{
+	position: absolute;
+	left: 0;
+	top: 1700px;
+	width: 100%;
+}
+.second-picture{
+	position: absolute;
+	left: 0;
+	top: 2850px;
+	width: 100%;
+}
+.third-picture{
+	position: absolute;
+	left: 0;
+	top: 3450px;
+	width: 100%;
+}
+.fourth-picture{
+	position: absolute;
+	left: 0;
+	top: 6450px;
+	width: 100%;
+}
+
+
+/* |********|
+   | Plecas |
+   |********| */
+
+.first-pleca{
+	position: absolute;
+	left: 0;
+	top: 1250px;
+}
+.second-pleca{
+	position: absolute;
+	right: 0;
+	top: 5650px;
+}
+.third-pleca{
+	position: absolute;
+	left: 0;
+	top: 6750px;
+}
+
+
+/* |********|
+   |Captions|
+   |********| */
+
+.foto1-Caption{
+	position: absolute;
+	top: 2220px;
+	left: 0px;
+}
+.foto2-Caption{
+	position: absolute;
+	top: 3670px;
+	left: 0px;
+}
+.foto3-Caption{
+	position: absolute;
+	top: 4320px;
+	
+}
+.foto4-Caption{
+	position: absolute;
+	top: 7850px;
+	left: 0px;
+}
+
+
+
+
+/********
+TxtCols
+*********/
+.first-Txt{
+	position: absolute;
+	top: 2700px;
+}
+.second-Txt{
+	position: absolute;
+	top:5930px;
+	left: 20px;
+}
+.third-Txt{
+	position: absolute;
+	top: 5250px;
+}
+.third-fourth-Txt{
+	position: absolute;
+	top: 5150px;
+}
+.fourth-Txt{
+	position: absolute;
+	top: 7238px;
+}
+.fifth-Txt{
+	position: absolute;
+	top: 4250px;
+}
+
+.marqueeChallenges{
+	position: absolute;
+	top: 5180px;
+	left: 20px;
+}
+
+
+.galleryBtn {
+	visibility: hidden;
+	position: absolute;
+	top: 7900px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.toTop{
+	position: absolute;
+	top:9350px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 6270px;
+	left: 0px;
+}

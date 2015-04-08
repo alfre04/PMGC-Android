@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+		<title>Dialogues || Petrobras Magazine Global Connections</title>
+
+
+		<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/dialogues.css" />
+		<link rel="stylesheet" type="text/css" href="css/dialogues-LayerHeights.css" />
+
+		<!-- Menu ( Css - Js )-->
+	  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+        <link rel="stylesheet" href="../css/jqm-demos.css">
+		
+        
+        <script src="../js/jqueryPMGC.min.js"></script>
+    
+        
+
+        <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+        </script>
+  
+		<!-- Color Box ( Css - Js )-->
+		<link rel="stylesheet" href="../css/lightbox.css" />
+        <link rel="stylesheet" href="../css/colorbox.css" />
+		<script src="../js/jquery.colorbox.js"></script>
+
+        
+    
+        
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+
+				
+			});
+		</script>
+        
+        
+        
+
+				
+
+  </head>
+
+  <body>
+  		<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+            <div class="ui-panel-wrapper">
+               
+                <div role="main" class="ui-content" id="content">
+
+					<!--
+					############################################
+					Contenidos de la Revista
+					-->
+                  
+                    <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+					<div id="wrapper">
+
+						<div id="scroller">
+
+							<section>
+
+								<div class="pixel background" data-stellar-ratio="1">
+									<div class="title" >
+										<h1 >
+											Ideas for the<br>
+											<span class="Big">21st century</span>
+										</h1>
+									</div>
+
+									<div class="footer">
+										<img src="imgs/footerDialogues.png">
+									</div>
+									
+								</div>
+
+
+
+								
+								<div class="pixel fotos" data-stellar-ratio="1.2">
+									<div class="first-QuestionBox">
+										<p class="question"><span class="nombrePregunta">PMGC:</span><br> You both propose, each in your own way, new ways to measure the social development of nations. How can that be done?</p>
+									</div>
+
+									<div class="second-QuestionBox">
+										<p class="question"><span class="nombrePregunta">PMGC:</span><br> How did the concepts of the Social Competitiveness Index, Social Progress Index and Gross National Happiness Index come to be born?</p>
+									</div>
+
+									<div class="third-QuestionBox">
+										
+										<p class="question"><span class="nombrePregunta">PMGC:</span> What do you think of the Brazilian model of society?</p>
+									</div>
+
+									<img class="first-speaker-picture" src="imgs/michael-green.jpg">
+									<img class="second-speaker-picture" src="imgs/domenico-de-masi.jpg">
+
+									<img class="third-picture" src="imgs/foto-3.jpg">
+									<img class="fourth-picture" src="imgs/foto-4.jpg">
+
+								</div><!-- fin de fotos -->
+
+
+								<div class="pixel infoGraphics" data-stellar-ratio="1.4">
+
+									
+                                    
+                                    <div class="second-picture">
+                                    	<div style="position:relative;">
+                                        <img id="pulsodialogues_izq" src="imgs/burbu-izquierda.png">
+                                        <img id="pulsodialogues" src="imgs/burbujasjuntas.png">
+                                        <img id="pulsodialogues_dere" src="imgs/burbu-derecha.png">
+                                        </div>
+									<img class="fotoCabezasFondo" src="imgs/foto-2_clean.png">
+									</div>
+
+									<img class="first-pleca" src="imgs/dialogues-pleca1.png">
+									<img class="second-pleca" src="imgs/dialogues-pleca2.png">
+									<img class="third-pleca" src="imgs/dialogues-pleca3.png">
+									<img class="fourth-pleca" src="imgs/dialogues-pleca4.png">
+
+									<img class="first-speaker-pleca" src="imgs/pleca-green.png">
+									<img class="second-speaker-pleca" src="imgs/pleca-de-masi.png">
+
+
+
+									<div class="marquee">
+										<h3>Using SPI and GNH </h3>
+										<p>The first initiative to use the Social Progress Index (SPI) in Brazil occurred in the Amazon, instigated by the Amazon Institute for Man and the Environment (Imazon). Based on the same statistical method as used for global SPI, the Amazonian Index adopts indicators that reflect the social reality of 24 million people in 772 municipalities, using recent public data of relevance to the region’s specific characteristics. According to the study, 98.5% of the Amazon’s municipalities have a lower SPI than the national average. The survey found no correlation between social progress and deforestation. </p>
+
+										<p>The Gross National Happiness (GNH) index was established in Bhutan, in the 1970s, by King Igme Wangchuck. It is designed to measure the rate of a country’s development not only by its economic progress, but also the wellbeing of its population and how it treats the environment, among other criteria, such as family stability and security. It was adopted in 1972 by the small Buddhist country instead of GDP. Since then, the Bhutanese government has guided its public management with four assumptions: sustainable and equitable economic development, preservation of culture, conservation of the environment, and good governance.</p>
+									</div>
+
+								</div><!-- fin de infographics -->
+
+								<div class="pixel textos" data-stellar-ratio="1.6">
+									    
+									<div class="sectionHeader"><img src="imgs/dialoguesHeader.png"></div>
+									  <div class="lineasSubHead">
+									    <p style="max-width:460px;">Italian sociologist Domenico De Masi and English economist </p>
+									    <p style="max-width:450px;">Michael Green propose the adoption of new indicators, as </p>
+									    <p style="max-width:480px;">opposed to GDP, to measure the ideal progress of nations, in a</p>
+									    <p style="max-width:490px;">kind of pact between development and human happiness. In an</p>
+									    <p style="max-width:410px;">exclusive interview with <span class="enfasis">Petrobras Magazine Global</span></p>
+									    <p style="max-width:480px;"><span class="enfasis">Connections</span>, they talk about the pathways and challenges for </p>
+									    <p style="max-width:450px;">21st century societies to reconcile economic balance and</p>
+									    <p style="max-width:110px;">quality of life</p>
+									  </div>
+
+
+									  <div class="intro-Article">
+									    <article class="txtCol left-align">
+										    <p><span class="dropCaps" style="color:#ffcb31 !important;">I</span>n this latest book, Mappa Mundi, Domenico De Masi proposes the adoption of Gross National Happiness (GNH), an index created in the 1970s in Bhutan, as an alternative to measure the degree of a country’s development. Economist Michael Green, co-creator of the Social Progress Index, believes that the widespread use of the indicator, which correlates social and economic development, may lead countries into a kind of competition based on the reduction of inequalities. Inthis interview, both talk about new ideas that can help the planet move forward towards more sustainable and fairer development.</p>
+									    </article>
+									  </div>
+
+									  <div class="first-AnswerBox">
+									    <article class="txtCol right-align">
+									   		<p><span class="nombre">De Masi:</span> I believe that one should calculate both GDP and GNH. The two main enemies of happiness are consumerism and competitiveness. Currently, in all Western countries, advertising induces alienating needs, banks make loans to enable the purchase of these products, and companies produce items that quickly replace those already purchased. This neurotic race produces, on the one hand, a rich group, always small in number and increasingly rich, and on the other hand a mass of poor people always numerous and increasingly poor. According to the UN, in 2000, when there were 6 billion people on the planet, 20% of people were rich and 80% were poor. In 2050, when there will be 9.3 billion people, 12% will be rich and 88% poor. If this really happens, we will certainly have a third world war.</p>
+										    <p><span class="nombre">Green:</span> There are three indispensable factors. The first is: does the population have the basic survival needs – food, water, shelter and security? The second element is: do people have access to the components, the assets that will enable them to build a better life, such as basic education, information, health infrastructure and a sustainable environment? And the third dimension is: does every individual have the opportunity to develop their lives in the way they wish to without obstacles? Do people have rights and freedom of choice, and do they live in a tolerant society with access to higher education? We came to these definitions through literature, bibliographies, the compilation of ideas and testing with people, but obviously not everyone agrees with it all, or with a single definition of social progress. However, we have tested these definitions with politicians, economists, entrepreneurs, philosophers, people in pubs, and they seem to be sufficient to understand to a reasonable degree what makes a good and functional society in a relatively universal manner. The key to the definition of social progress is that we don’t have GDP in the model. The UN’s Human Development Index, the Organization for Economic Cooperation and Development (OECD)’s Better Life Index – all of these initiatives include GDP and other economic indicators, and then add social indicators afterwards. At our NGO, the Social Progress Imperative, we seek to analyze the relationship between economic and social development.</p>
+									    </article>
+									  </div>
+
+									  <div class="second-AnswerBox">
+									    <article class="txtCol left-align">
+									       <p><span class="nombre">De Masi:</span> The world, and especially the West, is currently set to neoliberal thinking, which is based on the assumption that the planet’s resources are infinite, that progress will be infinite, that the competitive market automatically regulates power relations that develop in society, that social conflicts are always harmful, that the rich are rich because they deserve to be, and that the poor are poor because they in turn deserve to be. This type of thinking, which came to the fore with Ronald Reagan and Margaret Thatcher, conquered the whole world and created a huge amount of damage to economic and social plans. Based on this single philosophy, the economy dominates politics, finance dominates the economy, and credit rating agencies dominate finance. And most disturbing of all is that this increases the worldwide gap between rich and poor. The 85 richest people in the world today, according to a Forbes magazine ranking, have accumulated wealth equivalent to that of 3.5 billion poor people. And that leads to the suicide of capitalism itself, because production increases while consumption decreases. In Mappa Mundi, in addition to the neoliberal model, I tested many others, from the Indian to the Chinese, from Japanese to Muslim, from Socialist to Communist. Each of these models has positive aspects that should be executed and negative aspects that should be expelled from the new ideal, utopian model, which may lead the post-industrial world to emerge from its current crisis.</p>
+
+										   <p><span class="nombre">Green:</span> In 2009, Matthew Bishop and I wrote an article called The Capital Curve for a Better World, in which we said that if you have an idea to make a profit, it is relatively easy to take it to a significant scale. Investors, venture capital, private equity funds, public share offers. This kind of idea can come out of nowhere and quickly become large in scale. Social innovations encounter considerably more difficulties. And we said that there is a gap in the equity curve because of the way these innovations need to leap from NGOs to philanthropists and governments. These leaps are difficult. And in this article we mentioned the idea of a Social Competitiveness Index, which is where our project began, and soon evolved into the Social Progress Index. Something that we emphasize is that there is a fairly close link between social progress and happiness, but they are still two different things. It is possible to live in a society that is happy, but full of failings. And it is possible to live in a society that is perfectly functional but unhappy. So these concepts overlap, but are different. And what we are trying to measure is whether a society is “good” and functional. Philosophically, we’re following the Aristotelian tradition and seeking to measure the eudemonia [term referring to wellbeing derived from the Greek “eu,” or “good,” and “daimōn,” or “spirit”], while happiness is a concept in the utilitarian tradition.</p>
+									      
+									    </article>
+									  </div>
+
+									  <div class="third-AnswerBox">
+									    <article class="txtCol right-align">
+											<p><span class="nombre">De Masi:</span> Brazil’s current model,based on peace and the reduction of inequalities, is a path of salvation for the whole world. In Brazil, priority should be given to the simultaneous struggle against corruption, violence, illiteracy and social inequalities.</p>
+											<p> Fortunately, the Brazilian people have knowledge of these four priorities and denounce them using all the tools at their disposal: the internet, street demonstrations, and electoral behavior. Brazil features some very positive aspects, including marriage between people of different races, religions or of the same sex; the low level of conflict among the various ethnic and racial groups in the country; the undeniable reduction in distance in the gap between rich and poor, with a middle class that in the West is shrinking, while in Brazil it has grown; and the propensity for peace. While,in 500 years, Europe has given rise to hundreds of wars, Brazil had a single war, with Paraguay. It won’t be easy, for the neoliberal countries, to accept the Brazilian model, but sooner or later, the increasing social imbalances will not allow an alternative.
+											</p>
+											<p><span class="nombre">Green:</span> According to Social Progress Index data, Brazil is doing slightly better than average in transforming GDP into social progress. In general, Latin America tends to have a good performance in this regard. Emerging countries such as India, China and Russia have not yet achieved the same level of alignment between economic development and social progress, while Brazil presents standards in line with developed countries. However, there are countries in South and Central America more advanced than Brazil in the transformation of GDP into social progress, particularly Uruguay and Costa Rica.</p>
+									    </article> 
+									  </div>
+
+									 <!--  <div class="galleryBtn">
+										  <a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Steve_Wozniak___Steve_Jobs_Office.jpg" title="Steve Wozniak and Steve Jobs, founders of Apple">Photo Gallery</a>
+
+										  <a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/DSC1964OK.jpg" title="Coppe LAMCE Engineering Computational Methods Laboratory, building at the UFRJ Technology Park"></a>
+										  <a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Intel78-chip.jpg" title="Chip created by Intel in 1978"></a>
+										  <a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Early-Keyboard.jpg" title="One of the first computer keyboards"></a>
+										  <a class="dialoguesGallery ui-link cboxElement" href="imgs/dialogues/Fairchild8-Traitorous-8.jpg" title="The “Traitorous Eight,” the group of eight engineers who founded Fairchild Semiconductor, a company that produced the first commercially available integrated circuit"></a>
+									  </div> -->
+									 
+									 
+
+									<div class="toTop"> <a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a> </div>
+									
+								</div><!-- / End textos -->
+								
+								
+							</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+					<!--
+					End - Contenidos de la Revista
+					############################################
+					-->
+
+				</div><!-- / End Content -->
+
+			</div><!-- / End ui-panel-wrapper -->
+            
+
+            <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+				<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div>
+            </div><!-- / End Panel -->
+
+            
+        </div><!-- / End Page -->
+
+		<script src="../js/pmgc-FrameWork.min.js"></script>
+                <script>
+		function pulse() {
+			$('#pulsodialogues').animate({
+				width: 200, height: 160, 
+				opacity: 1
+			}, 700, function() {
+				$('#pulsodialogues').animate({
+					width: 180, height: 144, 
+					opacity: 1
+				}, 700, function() {
+					pulse();
+				});
+			}); 
+		};
+		
+		pulse();
+		
+	
+		
+		function pulse_dos() {
+			$('#pulsodialogues_izq').animate({
+				width: 150, height: 157, 
+				opacity: 0.5
+			}, 700, function() {
+				$('#pulsodialogues_izq').animate({
+					width: 130, height: 136, 
+					opacity: 1
+				}, 700, function() {
+					pulse_dos();
+				});
+			}); 
+		};
+		
+		pulse_dos(); 
+		
+		
+		function pulse_tres() {
+			$('#pulsodialogues_dere').animate({
+				width: 150, height: 157, 
+				opacity: 0.5
+			}, 700, function() {
+				$('#pulsodialogues_dere').animate({
+					width: 130, height: 136, 
+					opacity: 1
+				}, 700, function() {
+					pulse_tres();
+				});
+			}); 
+		};
+		
+		
+		pulse_tres(); 
+		
+		
+		</script>
+
+  </body>
+
+</html>

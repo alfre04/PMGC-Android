@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+	<title>Prisma || Petrobras Magazine Global Connections</title>
+  	<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/prisma.css" />
+	<link rel="stylesheet" type="text/css" href="css/prisma-LayerHeights.css" />
+
+	<!-- Menu ( Css - Js )-->
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+	
+    <script src="../js/jqueryPMGC.min.js"></script>
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
+  
+	<!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+			
+			
+
+	</script>
+
+</head>
+
+<body>
+  	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller">
+
+						<section>
+
+						<div class="layer background" data-stellar-ratio="1">
+                        
+                        
+                        
+             <div class="carruselcirculo">
+                       
+                        <div class="divi" id="center"><img src="imgs/tierra2.png" /></div>
+                        <div class="divi" id="sat0"><img class="pulso1181" src="imgs/sat0.png" /></div>
+                        <div class="divi" id="sat1"><img class="pulso901" src="imgs/sat1.png" /></div>
+                        <div class="divi" id="sat2"><img class="pulso1341" src="imgs/sat2.png" /></div>
+                        <div class="divi" id="sat3"><img class="pulso902" src="imgs/sat3.png" /></div>
+                        <div class="divi" id="sat4"><img class="pulso1342" src="imgs/sat4.png" /></div>
+                        <div class="divi" id="sat5"><img class="pulso903" src="imgs/sat5.png" /></div>
+                        <div class="divi" id="sat6"><img class="pulso1182" src="imgs/sat6.png" /></div>
+                        <div class="divi" id="sat7"><img class="pulso904" src="imgs/sat7.png" /></div>
+                        
+             </div>           
+							
+							<div class="title accentColorPrisma">
+								<h1>Gender <br/><span class="Big">Equality</span></h1>
+                                <h5 class="txtBy"><span class="by">By</span> Laís Abramo</h5>
+							</div>
+
+							
+
+							<div class="footer">
+								<img src="imgs/footerPrisma.png">
+							</div>
+									
+						</div> <!-- End of BackGround -->
+
+								
+						<div class="layer layer1" data-stellar-ratio="1.2">
+
+							<div class="lineasazules">
+								<p>A matter of social justice, human rights</p>
+                                <p>and sustainable development</p>
+							</div>
+							
+
+							<img class="second-picture" src="imgs/profile.jpg">
+						</div><!-- fin de fotos -->
+
+
+						<div class="layer layer2" data-stellar-ratio="1.4">
+
+						<div class="first-Txt">
+							<article class="txtCol left-align DoubleSize" style="background-color:#FFF;">
+								<p><span style="color:#005b94 !important;" class="dropCaps">I</span>n a recently published report<sup>1</sup> based on research undertaken in 108 countries, the International Labor Organization (ILO) states that women’s increasing participation in the labor market has been the driving force for growth and competitiveness on a global scale. However, barriers still remain to the more equal incorporation of women into the world of work, which manifest themselves, among other factors, in inequalities of income and the scope to access company directorships, despite women’s scholarity being better on average than men’s.</p>
+							</article>
+						</div>
+						<div class="second-Txt">
+							<article class="txtCol left-align txtColAndroidFix" style="background-color:#FFF;">
+								<p>According to the ILO, gender equality is a matter of human rights and an essential condition for an effective democracy. It is also an issue for social justice, poverty reduction and social and economic development. In turn, gender discrimination is not only a violation of human rights and fundamental rights at work – it also represents a major cost for companies and society, as it leads to the waste of resources, talents and human potentialities.</p>
+                                <p>The international labor standards adopted by the ILO are important instruments for combatting discrimination and promoting equality in the world of work. All of them apply equally to men and women, but there are some that have special importance for gender equality.<br/><br/>The maternity protection conventions (Convention 3, created in 1919, amended in 1952, giving rise to Convention 103, which was in turn amended in 2000, giving rise to Convention 183) define fundamental elements for protecting women against discrimination during pregnancy, birth and breastfeeding, such as maternity leave and pay, and the temporary inability to be dismissed. Convention 103 was ratified by the Brazilian government in 1965.</p>
+                                <p>Convention 100 on Equal Remuneration for Work of Equal Value, created in 1951, was ratified by the Brazilian government in 1957. Convention 111 on Discrimination in Employment and Occupation (created in 1958 and ratified by the Brazilian government in 1965) is the first international instrument about discrimination, defined as any distinction, exclusion or preference based on grounds of race, color, sex, religion, political opinion, nationality or social origin that have the effect of nullifying or altering equality of opportunities and treatment in employment.<br/><br/>In turn, Convention 156 on Workers with Family Responsibilities (created in 1981 and still not ratified by the Brazilian government) complements Convention 111, establishing that no worker may be discriminated against at work due to their family responsibilities.</p>
+                    			<p>Finally, one should highlight the importance of Convention 189 on Decent Work for Domestic Workers, created in 2011 and also not ratified by the Brazilian government, aimed at ensuring decent working conditions for an extremely important category of the female labor force. Brazil has made significant progress in recent years in promoting gender equality, in the realm of public policies, collective bargaining and companies’ voluntary actions. Diagnosing the inequalities that persist is fundamental to identifying discriminatory practices that cause them and that ought to be eliminated, and to promoting policies for equal opportunities and treatment in the work environment.<br/><br/>
+
+								<div style="font-size:12px; color:#FFF; text-shadow:initial;">
+								<sup>1</sup>-	ILO, 2015, Women in Business and Management: Gaining Momentum, Geneva.</div></p>											
+							</article>
+						</div>
+
+						</div><!-- fin de infographics -->
+
+						<div class="layer layer3" data-stellar-ratio="1.6">
+									    
+						<div class="sectionHeader"><img src="imgs/prismaHeader.png"></div>
+
+							
+							
+							<div class="toTop">
+								<a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a>
+							</div>
+									
+						</div><!-- / End Layer 3 -->
+								
+								
+						</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+			<div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+				<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div>
+            </div><!-- / End Panel -->
+
+            
+    </div><!-- / End Page -->
+
+
+	<script src="../js/pmgc-FrameWork.min.js"></script>
+    
+	<script>
+		function pulse901() {
+		
+
+			$('.pulso901').animate({
+				width: 90, height: 90, 
+			}, 700, function() {
+				$('.pulso901').animate({
+					width: 70, height: 70, 
+				}, 700, function() {
+					pulse901();
+				});
+			}); 
+			
+		};
+		
+		
+		
+				function pulse902() {
+			$('.pulso902').animate({
+				width: 90, height: 90, 
+			}, 700, function() {
+				$('.pulso902').animate({
+					width: 70, height: 70, 
+				}, 700, function() {
+					pulse902();
+				});
+			}); 
+		};
+		
+		
+		
+				function pulse903() {
+			$('.pulso903').animate({
+				width: 90, height: 90, 
+			}, 700, function() {
+				$('.pulso903').animate({
+					width: 70, height: 70, 
+				}, 700, function() {
+					pulse903();
+				});
+			}); 
+		};
+		
+
+		
+    	function pulse904() {
+			
+			$('.pulso904').animate({
+				width: 90, height: 90, 
+			}, 700, function() {
+				$('.pulso904').animate({
+					width: 70, height: 70, 
+				}, 700, function() {
+					pulse904();
+				});
+			}); 
+			
+		};
+		
+		
+		$(document).ready(function(){
+               // Code to do stuff immediately
+               setTimeout(pulse901, 350);
+			   setTimeout(pulse902, 350);
+			   setTimeout(pulse903, 350);
+			   setTimeout(pulse904, 350);
+            });
+			
+		
+
+		
+		function pulse_dos1182() {
+			$('.pulso1182').animate({
+				width: 134, height: 134, 
+			}, 700, function() {
+				$('.pulso1182').animate({
+					width: 104, height: 104, 
+				}, 700, function() {
+					pulse_dos1182();
+				});
+			}); 
+		};
+		
+		pulse_dos1182(); 
+		
+		
+		
+		
+		function pulse_tres1341() {
+			$('.pulso1341').animate({
+				width: 134, height: 134, 
+			}, 700, function() {
+				$('.pulso1341').animate({
+					width: 104, height: 104, 
+				}, 700, function() {
+					pulse_tres1341();
+				});
+			}); 
+		};
+		
+		
+		pulse_tres1341();
+		
+		
+		function pulse_tres1342() {
+			$('.pulso1342').animate({
+				width: 118, height: 118, 
+			}, 700, function() {
+				$('.pulso1342').animate({
+					width: 98, height: 98, 
+				}, 700, function() {
+					pulse_tres1342();
+				});
+			}); 
+		};
+		
+		
+		pulse_tres1342(); 
+		
+				function pulse_dos1181() {
+			$('.pulso1181').animate({
+				width: 118, height: 118, 
+			}, 700, function() {
+				$('.pulso1181').animate({
+					width: 98, height: 98, 
+				}, 700, function() {
+					pulse_dos1181();
+				});
+			}); 
+		};
+		
+		pulse_dos1181(); 
+		
+		
+		</script>
+
+
+</body>
+
+</html>

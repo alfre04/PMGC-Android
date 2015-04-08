@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+
+	<title>Staff || Petrobras Magazine Global Connections</title>
+  	<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/credits.css" />
+
+	<!-- Menu ( Css - Js )-->
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+	
+    <script src="../js/jqueryPMGC.min.js"></script>
+
+
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+                $("#slide1").click(function(e){
+                    e.preventDefault();
+                        $.scrollTo( this.hash, 500);
+                        return false;
+                });
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
+
+    <!-- cordova inAppBrowser -->
+	<script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+        function onBodyLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+    </script>
+    <script>
+        function onDeviceReady() {
+        }
+    </script>
+  
+	<!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+	</script>
+
+</head>
+
+<body>
+  	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller" style="padding:30px;">
+
+						<section>
+
+						<div class="layer background" data-stellar-ratio="1">
+							
+							
+									
+						</div> <!-- End of BackGround -->
+
+								
+						<div class="layer layer1" data-stellar-ratio="1.2">
+							
+
+							
+
+						</div><!-- fin de fotos -->
+
+
+						<div class="layer layer2" data-stellar-ratio="1.4">
+
+						</div><!-- fin de infographics -->
+
+						<div class="layer layer3" data-stellar-ratio="1.6">
+									    
+							<div class="section">
+								<h1 style="color:#008244;">STAFF</h1>
+								<p>EXECUTIVE MANAGER FOR CORPORATE COMMUNICATION: <span class="black">Wilson Santarosa</span> | INSTITUTIONAL RELATIONS AND OWNED MEDIA MANAGER: <span class="black">Gilberto Puig Maldonado</span> | INTERNATIONAL RELATIONS MANAGER: <span class="black">Patricia de Mello Dias</span> | EDITOR AND COORDINATOR: <span class="black">Estephani Beiler Zavarise</span> | EDITOR: <span class="black">Carlos Aurélio Werneck de Miranda e Silva</span> | IMAGE EDITOR: <span class="black">Suzana Fuhrken Peixoto</span> | INTERNS: <span class="black">Rafaela da Rocha Costa and Isabella Leal Ignacio</span></p>
+
+								<h1 style="color:#008244; margin-top:25px;">EDITORIAL STAFF</h1>
+								<p>DOWNSTREAM: <span class="black">Gustavo Melione Abreu</span> | INTERNACIONAL AREA: <span class="black">Raphael Dias de Souza</span> | RESEARCH CENTER: <span class="black">Liza Ramalho Albuquerque</span> | EXPLORATION AND PRODUCTION: <span class="black">Douglas Hamilton Santos Lobo</span> | ENGINEERING, TECHNOLOGY AND MATERIALS: <span class="black">Ana Gabriela Spohr Josua</span> | GAS AND ENERGY: <span class="black">Sandra Vasconcellos Chaves</span> | CORPORATE IMAGE AND BRAND: <span class="black">Alexandre Henrique Pott</span> | PRESS: <span class="black">Paula de Oliveira Almada Moraes</span> | OWNED MEDIA: <span class="black">Leonardo Bruno Bocks Avellar</span> | PETROBRAS BIOCOMBUSTÍVEL: <span class="black">Valério Tito Gam</span> | COMMUNICATIONS AND INTERNAL RELATIONS: <span class="black">Patricia Alves do Rego Silva</span> | SOCIAL RESPONSIBILITY: <span class="black">Elizete Pompa Antunes Vazquez</span> | INVESTOR RELATIONS: <span class="black">Orlando Costa Gonçalves Junior</span> | HEALTH, SAFETY, ENERGY EFFICIENCY AND THE ENVIRONMENT: <span class="black">Jose Carlos Coelho Cidade</span> | CULTURAL AND SPORTS SPONSORSHIP: <span class="black">Fabio Jose Melo Malta</span></p>
+
+								<h1 style="color:#008244;margin-top:25px;">CREDITS</h1>
+								<p>PUBLISHER: <span class="black">Llorente & Cuenca</span> | EDITOR: <span class="black">Anatricia Borges</span> | JOURNALIST RESPONSIBLE: <span class="black">Natalia Pacheco</span> | TABLET VERSION PRODUCER: <span class="black">Víctor Valverde</span> | TRANSLATION: <span class="black">Batata Comunicações</span> | PHOTOGRAPHY: <span class="black">Francisco de Souza</span> | ART EDITOR AND COORDINATOR: <span class="black">Yolanda Yebra</span> | DESIGN, ILLUSTRATIONS AND PHOTOGRAPHIC DIGITAL ART: <span class="black">Tres Simple</span> | INFOGRAPHICS: <span class="black">Nicolás Diez, Sebastián D’Aiello, Pini Day</span> | REPORTERS: <span class="black">Alexandre Gaspari and Gabriel Costa</span></p>
+
+								<p class="disclaimer" style="margin-top:30px;"><span class="black">Petrobras Magazine Global Connections</span> is not sold. To request a subscription or information, or to send in a letter or suggestions, contact our editorial team at the address: Petrobras /  Relacionamento Internacional. Adress: Avenida República do Chile, 65, sala 1902 – Rio de Janeiro – RJ CEP: 20031-912, Brasil.</p>
+                                <p class="disclaimer" style="margin:0px !important">Email:
+								<span class="black"><a class="link ui-link" style="color:#000 !important;text-decoration:none; font-weight:normal !important;" href="#" onclick="window.location.href = 'mailto:petromag@petrobras.com.br?subject=Enquiry from PMGC App','_system';">
+								petromag@petrobras.com.br</a></span>
+                                
+               | Website: <span class="black"><a class="link ui-link" style="color:#000 !important;text-decoration:none; font-weight:normal !important;" href="#" onclick="window.open('http://www.petrobras.com/magazine','_system');">www.petrobras.com/magazine</a></span> <br/><p class="disclaimer" style="margin:0px !important">
+               This edition’s content was finalized on January 28, 2015 The partial or total reproduction of this publication’s articles is authorized provided that the source is credited. Copyright 2014 by Petrobras. Affiliated to the Brazilian Association of Corporate Communication.</p>
+            
+                                
+                                </p>
+								<br/>
+								
+								<div class="logos">
+									<img src="imgs/logos.jpg">
+								</div>
+										
+										
+							</div class="section"><!-- / End Section -->
+									
+						</div><!-- / End textos -->
+								
+								
+						</section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+        <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+			<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div><!-- / End Panel -->
+
+            
+    </div><!-- / End Page -->
+
+
+	<script src="../js/pmgc-FrameWork.min.js"></script>
+
+</body>
+
+</html>

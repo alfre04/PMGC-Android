@@ -1,0 +1,219 @@
+.accentColorInside{
+	background-color: #F8C73F;
+	color: #00814C;
+}
+
+.title {
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 100%;
+	background: url('../imgs/portada.png') no-repeat;
+	background-position: -0px 0px;
+	background-size: 100% auto;
+}
+.title h1 {
+	color:rgba(64,53,48,1);
+	font-family: 'petrobras_sanslight';
+	position: absolute;
+	font-size: 5.6em;
+	top: 29%;
+	left:10%; 
+	width: 90%;
+	text-shadow: 0px 1px 0px #000;
+	
+}
+.Big {
+	font-family: 'petrobras_sansbold';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.lineasSubHead p{
+	font-family: 'petrobras_sansitalic';
+	text-shadow:none;
+	font-size: 1em;
+	color: black;
+	padding: 1px 20px 1px 50px;
+	background-color: #39d62d;
+	margin-top: 4px;
+	width: auto;
+}
+h3 {
+	font-family: 'petrobras_sansbold';
+	color: #00814A;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+
+
+
+
+/* ------------------------------------------- positions*/
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.lineasSubHead {
+	position: absolute;
+	top:440px;
+}
+
+.intro-Article{
+	position: absolute;
+	top: 1000px;
+}
+
+
+/* |********|
+   |Pictures|
+   |********| */
+
+.first-picture{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 1200px;
+}
+.second-picture{
+	left: 0;
+    position: absolute;
+    top: 1700px;
+    width: 100%;
+}
+.third-picture{
+position: absolute;
+    left: 0;
+    width: 100%;
+    top: 2700px;
+}
+.fourth-picture{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 3550px;
+}
+
+
+/* |********|
+   | Plecas |
+   |********| */
+
+.first-pleca{
+	position: absolute;
+	left: 0;
+	top: 1250px;
+}
+.second-pleca{
+	position: absolute;
+	right: 0;
+	top: 5650px;
+}
+.third-pleca{
+	position: absolute;
+	left: 0;
+	top: 7250px;
+}
+
+
+/* |********|
+   |Captions|
+   |********| */
+
+.foto1-Caption{
+	position: absolute;
+	top: 2050px;
+	left: 0px;
+}
+.foto2-Caption{
+	position: absolute;
+	top: 3800px;
+	left: 0px;
+}
+.foto3-Caption{
+	position: absolute;
+	top: 4700px;
+	right: 10%;
+}
+.foto4-Caption{
+	position: absolute;
+	top: 8500px;
+	left: 0px;
+}
+
+/* PIES FOTO */
+
+.pieuno {
+left: 20px;
+    position: absolute;
+    top: 1565px;}
+
+.piedos {
+ left: 20px;
+    position: absolute;
+    top: 2239px;}
+
+.pietres {
+ left: 20px;
+    position: absolute;
+    top: 2860px;}
+
+.piecuatro {
+	
+ left: 20px;
+    position: absolute;
+    top: 4039px;}
+
+
+/********
+TxtCols
+*********/
+.first-Txt{
+	position: absolute;
+	top: 490px;
+}
+.second-Txt{
+	position: absolute;
+	top: 3550px;
+}
+.third-Txt{
+	position: absolute;
+	top: 4018px;
+}
+.fourth-Txt{
+	position: absolute;
+	top: 5280px;
+}
+.fifth-Txt{
+	position: absolute;
+	top: 4250px;
+}
+
+.marquee{
+	position: absolute;
+	top: 5500px;
+	left: 20px;
+}
+
+
+.galleryBtn {
+	visibility: hidden;
+	position: absolute;
+	top: 7900px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.toTop{
+	position: absolute;
+	top:6070px;
+	left: 50%;
+	margin-left: -100px;
+}
+.footer{
+	position: absolute;
+	top: 4240px;
+	left: 0px;
+}
