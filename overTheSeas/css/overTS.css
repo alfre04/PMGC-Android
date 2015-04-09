@@ -284,14 +284,12 @@ a.navArrow.next::before{
 .video-1{
 	position: absolute;
 	top: 15000px;
-	left: 50%;
-	margin-left: -280px;
+	left: 0;
 }
 .video-2{
 	position: absolute;
 	top: 15350px;
-	left: 50%;
-	margin-left: -280px;
+	left: 0;
 }
 
 
@@ -456,11 +454,25 @@ position: absolute;
 
 
 .tit_videos_seas {
-font-size: 22px;
-    left: 50%;
-    margin-left: -25%;
+	font-size: 22px;
+    left: 20%;
     position: absolute;
-    top: 14920px;}
+    top: 14920px;
+}
+
+.video{
+	margin-bottom: 50px;
+}
+
+.videoContainer{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	height: 200px;
+	background-color: transparent;
+	top:15020px;
+}
+
 	
 .fotoCaption p{
 	background-color:#FFF;

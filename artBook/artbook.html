@@ -48,6 +48,8 @@
 				//Examples of how to assign the Colorbox event to elements
 				$(".Gallery").colorbox({rel:'Gallery', width:"90%", height:"auto"});
 				$(".Gallery2").colorbox({rel:'Gallery2', width:"90%", height:"auto"});
+
+				$(".playVideo").colorbox({iframe:true, innerWidth:580, innerHeight:370});
 				
 				//Example of preserving a JavaScript event for inline calls.
 				$("#click").click(function(){ 
@@ -68,9 +70,7 @@
                
             <div role="main" class="ui-content" id="content">
 
-                <div class="pullBar">
-                	<img src="../imgs/pullBar.png">
-                </div>
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
 
 				<div id="wrapper">
 
@@ -93,18 +93,12 @@
 								
 						<div class="layer layer1" data-stellar-ratio="1.2">
 							
-
 							<img class="sixth-picture" src="imgs/foto-avion.jpg">
-
-
-
+							
 						</div><!-- fin de fotos -->
 
 
 						<div class="layer layer2" data-stellar-ratio="1.4">
-
-
-
 
 							<div class="foto6-Caption">
 								<div class="fotoCaption" style="width:100%">
@@ -112,48 +106,23 @@
                                     transport the Brazilian soccer team during the 2014 World Cup</p>
 								</div>
 							</div>
-                            
-
-
-
 
 							<img class="first-pleca" src="imgs/pleca-1.png">
 
 							<img class="second-pleca" src="imgs/pleca-2.png">
 
 							
-
-
-
 						</div><!-- fin de infographics -->
 
 						<div class="layer layer3" data-stellar-ratio="1.6">
-									    
+
 							<div class="sectionHeader"><img src="imgs/artbookHeader.png"></div>
 							<div class="lineasSubHead">
 								<p style="max-width:440px;">The urban surrealism that transports the real to the</p>
 								<p style="max-width:485px;">imaginary in OSGEMEOS’ contemporary artwork combines</p>
 								<p style="max-width:525px;">colors and multiple dimensions that have conquered the world</p>
 							</div>
-
-
-							<div class="video-1">
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/a38xoWB6NAw?rel=0" frameborder="0" allowfullscreen></iframe>
-							</div>
-                                    
-                            <div class="video-2">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yLUmx0dDZAw?rel=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            
-                            <div class="titsvideos">
-								<div class="fotoCaption">
-									<p>See OSGEMEOS working </p>
-								</div>
-							</div>
-
-
-
-
+							
 							<div class="first-Txt">
 								<article class="txtCol left-align DoubleSize">
 									<p><span class="dropCaps" style="color:#ed6b06;">A</span>huge 360-degree mural featuring six gigantic silos extends for 2,000 square meters, and 20 meters in height, at the Vancouver Biennale art exhibition in Canada. This public artwork, now considered the most iconic in the country, is the first incursion of Brazilian graffiti artists and twins, Otávio and Gustavo Pandolfo, on Granville Island in Vancouver. Invited to participate in one of North America’s most important urban contemporary art exhibitions, OSGEMEOS (Portuguese for “THETWINS”), as they are known, entice the Biennale’s visitors to enter into a dialogue between two and three-dimensional worlds through the imposing artwork of their “Giants” series – large art interventions already staged in Greece, the USA, the Netherlands and Brazil.</p>
@@ -190,12 +159,10 @@
 							      At the 2014 Vancouver Biennale, the brothers’ work continues on with their “Giants” series. The multicolor silos of the Canadian Giants series contrast with the everyday gray landscape of the industrial district of Granville, on False Creek, an inlet in downtown Vancouver. Reflected in the water, the silos highlight another element of the twins’ work. In their view, “Water acts like a vein, symbolizing life, and it is always strongly present in our art.”
 							      </p>
 								</article>
-							</div>
+							</div>	   
 
 
-							
-
-						 	<div class="galleryBtn" >
+							<div class="galleryBtn" >
 								<a class="Gallery ui-link cboxElement" href="imgs/foto1-1.png" title="“My Feet are Floating”, 2013 / Photo: Eduardo Ortega">
                                 <img class="imgAndroidFix" src="imgs/cuadros.png"/>
                                 </a>
@@ -214,7 +181,27 @@
 								<a class="Gallery2 ui-link cboxElement" href="imgs/foto2-3.png" title="The multicolor silos of the Canadian Giants series contrast with the gray landscape of the industrial district of Granville. / Photos: Vancouver Biennale"></a>
 								<a class="Gallery2 ui-link cboxElement" href="imgs/foto2-4.png" title="OSGEMEOS at work in their studio / Photo: OSGEMEOS"></a>
 							</div> 
-							
+
+							<div class="videoContainer">
+								
+
+								<div class="video"> 
+								    <a class="playVideo cboxElement ui-link" href="https://www.youtube.com/embed/a38xoWB6NAw?rel=0&amp;wmode=transparent&amp;showinfo=0&amp;autohide=1&amp;autoplay=1"><img src="../imgs/playvideo-artbook-2.png"></a> 
+								</div>
+
+								 <div class="video"> 
+								    <a class="playVideo cboxElement ui-link" href="https://www.youtube.com/embed/yLUmx0dDZAw?rel=0&amp;wmode=transparent&amp;showinfo=0&amp;autohide=1&amp;autoplay=1"><img src="../imgs/playvideo-artbook-1.png"></a> 
+								</div>
+							                                    
+	                           
+	                        </div>	
+                            
+                            <div class="titsvideos">
+								<div class="fotoCaption">
+									<p>See OSGEMEOS working </p>
+								</div>
+							</div> 
+						
 							<div class="toTop">
 								<a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a>
 							</div>
@@ -224,9 +211,9 @@
 								
 						</section><!-- / End Section -->
 
-					</div><!-- / End Scroller -->
+						</div><!-- / End Scroller -->
 
-				</div><!-- / End Wrapper -->
+					</div><!-- / End Wrapper -->
 			
 				<!-- End - Contenidos de la Revista -->
 

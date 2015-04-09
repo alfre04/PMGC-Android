@@ -18,7 +18,7 @@ section {
 .layer {
   position: absolute;
   border-radius: 0px;
-  background: white;
+  background: white; 
 }
 
 .background{
